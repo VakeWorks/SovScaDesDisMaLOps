@@ -30,7 +30,15 @@ The ideas and concepts as well as working codes will be made availbale here for 
 
 ### PRM.2: Scaling Python with Ray in a Hurry
 
+#### User Commands
+
+Core commands needed to use this repository.
+
+#### Peparation
+
+Core commands to create this repository, including the addition of submodues.
+
 ```
-git cllone git@github.com:VakeWorks/scalingpythonml.git
+git submodule add git@github.com:VakeWorks/scalingpythonml.git
 ```
 
