@@ -26,9 +26,8 @@ The ideas and concepts as well as working codes will be made availbale here for 
 
 ### THM.3
 
-### PRM.1
 
-### PRM.2: Scaling Python with Ray in a Hurry
+### PRM.1: Scaling Python with Ray in a Hurry
 
 #### User Commands
 
@@ -54,3 +53,6 @@ git submodule add git@github.com:ray-project/ray.git
     - `docker pull rayproject/ray` # pull docker imaeg for cpu from prebuilt official docker images
     - 
 - Local Kuberenetes based KIND cluster for deployment: https://kind.sigs.k8s.io/
+
+
+### PRM.2: Deploying for Sovereign Operations 
