@@ -1,0 +1,3 @@
+[submodule "scalingpythonml"]
+	path = scalingpythonml
+	url = git@github.com:VakeWorks/scalingpythonml.git
