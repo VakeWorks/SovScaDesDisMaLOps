@@ -39,6 +39,18 @@ Core commands needed to use this repository.
 Core commands to create this repository, including the addition of submodues.
 
 ```
+# get source codes for scaling python with ray book from VakeWorks fork
 git submodule add git@github.com:VakeWorks/scalingpythonml.git
+
+# get source codes for ray from ray-project
+git submodule add git@github.com:ray-project/ray.git
 ```
 
+##### Launch ray locally on your laptop in docker:
+
+- https://docs.ray.io/en/master/ray-overview/installation.html#launch-ray-in-docker
+    - untested `.sh` execution `cd ray && ./build-docker.sh` failed with `=> ERROR [2/5] RUN <<EOF (#!/bin/bash...) ` on Tuesday 27 maj 2025 18:56:43 CEST
+- Falling back on images dockerhub for now: https://hub.docker.com/r/rayproject/ray
+    - `docker pull rayproject/ray` # pull docker imaeg for cpu from prebuilt official docker images
+    - 
+- Local Kuberenetes based KIND cluster for deployment: https://kind.sigs.k8s.io/

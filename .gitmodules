@@ -1,3 +1,6 @@
 [submodule "scalingpythonml"]
 	path = scalingpythonml
 	url = git@github.com:VakeWorks/scalingpythonml.git
+[submodule "ray"]
+	path = ray
+	url = git@github.com:ray-project/ray.git
