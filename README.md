@@ -51,7 +51,7 @@ git submodule add git@github.com:ray-project/ray.git
     - untested `.sh` execution `cd ray && ./build-docker.sh` failed with `=> ERROR [2/5] RUN <<EOF (#!/bin/bash...) ` on Tuesday 27 maj 2025 18:56:43 CEST
 - Falling back on images dockerhub for now: https://hub.docker.com/r/rayproject/ray
     - `docker pull rayproject/ray` # pull docker imaeg for cpu from prebuilt official docker images
-    - 
+    - `docker run --rm --shm-size=10gb -t -i rayproject/ray` # shm-size or shared memory size should be about 1/3rd of available memory on your laptop
 - Local Kuberenetes based KIND cluster for deployment: https://kind.sigs.k8s.io/
 
 
