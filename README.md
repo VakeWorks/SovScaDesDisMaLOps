@@ -8,7 +8,7 @@ This repository is part of the needed preparation for [Wallenberg AI, Autonomous
 
 The ideas and concepts as well as working codes will be made availbale here for self-study and group-study for anyone who is interested in SovScaDesDisMaLOps.
 
-## TH: Theoretical Modules
+## THM: Theoretical Modules
 
 1. Data Engineering Sciences and Distributed Machine Learning Now (maths + stats + computing + economics ++ domain-expertise and entrepreneurship)
 2. Laws of Capitalism, Corporate Jurisdictions, Statistical Contract Theory, Intellectual Property Laws in Sweden 
