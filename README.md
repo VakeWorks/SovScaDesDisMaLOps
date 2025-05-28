@@ -54,7 +54,9 @@ git submodule add git@github.com:ray-project/ray.git
     - `docker run --rm --shm-size=10gb -t -i rayproject/ray` # shm-size or shared memory size should be about 1/3rd of available memory on your laptop
         - Try: `ls`, `pwd`, `whoami`, `ray --version` inside docker container
         - `CTRL-D` to exit out of the docker container.
-    - `docker run --rm --shm-size=10gb -t -i rayproject/ray-ml` # ray-ml doccker image for ML in ray with libraries.. 
+    - `docker run --rm --shm-size=10gb -t -i rayproject/ray-ml` # ray-ml doccker image for ML in ray with libraries.. will take several minutes
+        - Try: `ls`, `pwd`, `whoami`, `ray --version` inside docker container
+        - `CTRL-D` to exit out of the docker container.
 - Local Kuberenetes based KIND cluster for deployment: https://kind.sigs.k8s.io/
 
 
