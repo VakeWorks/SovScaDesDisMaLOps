@@ -66,6 +66,12 @@ git submodule add git@github.com:ray-project/ray.git
         - `CTRL-D` to exit out of the docker container.
     - `cd PATH-TO/SovScaDesDisMaLOps` and `docker run --rm --shm-size=1G -v `pwd`:/home/ray/SovScaDesDisMaLOps -t -i rayproject/ray` # mount SovScaDesDisMaLOps inside the docker container
 - Local Kuberenetes based KIND cluster for deployment: https://kind.sigs.k8s.io/
+    - Install: [go 1.17+](https://golang.org/) and [docker](https://www.docker.com/) and [podman](https://podman.io/docs/installation)
+<!--- or [nerdctl](https://github.com/containerd/nerdctl) (for MAC nerdctl install [Rancher Desktop](https://rancherdesktop.io/)) -->
+    - `go install sigs.k8s.io/kind@v0.29.0`
+    - add `export PATH="$(go env GOPATH)/bin:$PATH"` to `~/.bash_profile` so that `kind` is in your PATH. 
+    - `kind create cluster` # create kubernetes in docker or kind cluster
+    - `kubectl cluster-info --context kind-kind`  # Not sure what to do next? 😅  Check out https://kind.sigs.k8s.io/docs/user/quick-start/
 
 
 ### PRM.2: Deploying for Sovereign Operations 
