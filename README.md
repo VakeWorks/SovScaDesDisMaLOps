@@ -35,7 +35,9 @@ The ideas and concepts as well as working codes will be made availbale here for 
 
 1. set up ssh for your github account: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/
 1. `git clone --recurse-submodules git@github.com:VakeWorks/SovScaDesDisMaLOps.git` # clone the superprojecct
-
+    - `git pull` and `git status` to keep up to date with the repository
+    - `git pull --recurse-submodules` to keep up to date with the repository, including its sub-modules
+    - deep-dive as required for `git`-ing sub-modules: https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
 #### Peparation
 
