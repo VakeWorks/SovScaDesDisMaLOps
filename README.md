@@ -31,7 +31,11 @@ The ideas and concepts as well as working codes will be made availbale here for 
 
 #### User Commands
 
-Core commands needed to use this repository.
+**Core commands needed to use this repository:**
+
+1. set up ssh for your github account: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/
+1. `git clone --recurse-submodules git@github.com:VakeWorks/SovScaDesDisMaLOps.git` # clone the superprojecct
+
 
 #### Peparation
 
