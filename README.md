@@ -57,12 +57,14 @@ git submodule add git@github.com:ray-project/ray.git
     - untested `.sh` execution `cd ray && ./build-docker.sh` failed with `=> ERROR [2/5] RUN <<EOF (#!/bin/bash...) ` on Tuesday 27 maj 2025 18:56:43 CEST
 - Falling back on prebuilt images at dockerhub for now: https://hub.docker.com/r/rayproject/ray
     - `docker pull rayproject/ray` # pull docker image for cpu from prebuilt official docker images
+    - `docker pull rayproject/ray:latest-aarch64` # Use ARM-based docker images for Apple M1 or M2 MacBooks
     - `docker run --rm --shm-size=10gb -t -i rayproject/ray` # shm-size or shared memory size should be about 1/3rd of available memory on your laptop
         - Try: `ls`, `pwd`, `whoami`, `ray --version` inside docker container
         - `CTRL-D` to exit out of the docker container.
     - `docker run --rm --shm-size=10gb -t -i rayproject/ray-ml` # ray-ml doccker image for ML in ray with libraries.. will take several minutes
         - Try: `ls`, `pwd`, `whoami`, `ray --version` inside docker container
         - `CTRL-D` to exit out of the docker container.
+    - `cd PATH-TO/SovScaDesDisMaLOps` and `docker run --rm --shm-size=1G -v `pwd`:/home/ray/SovScaDesDisMaLOps -t -i rayproject/ray` # mount SovScaDesDisMaLOps inside the docker container
 - Local Kuberenetes based KIND cluster for deployment: https://kind.sigs.k8s.io/
 
 
