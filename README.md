@@ -10,7 +10,7 @@ The ideas and concepts as well as working codes will be made availbale here for 
 
 ## THM: Theoretical Modules
 
-1. Data Engineering Sciences and Distributed Machine Learning Now (maths + stats + computing + economics ++ domain-expertise and entrepreneurship)
+1. Data Engineering Sciences and Distributed Machine Learning Now 
 2. Laws of Capitalism, Statistical Contract Theory, Intellectual Property Laws in Sweden, Corporate Jurisdictions and Sovereignty  
 3. Abstract Machine Models, Work-Depth Model, Brent's Theorem, and Analysis of the Fastest Sorting Algorithm in Distributed Parallel Random Access Machine (DPRAM) model
 
@@ -20,7 +20,9 @@ The ideas and concepts as well as working codes will be made availbale here for 
 2. Deploying for Sovereign Operations in Scalable Data Engineering Sciences and Distributed Machine Learning Spaces.
 
 
-### THM.1 
+### THM.1 Data Engineering Sciences and Distributed Machine Learning Now
+
+- Data Engineering Sciences and Distributed Machine Learning today is (matematics + statistics + computing + micro-economics ++ domain-expertise and entrepreneurship)
 
 ### THM.2. Laws of Capitalism
 
