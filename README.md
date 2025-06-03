@@ -73,7 +73,7 @@ pip install jupyter jupytext opencv-python-headless
 # to start a head node inside docker / yopu can start ray in python or jupyter dirrectly also
 ray start --head --dashboard-host=0.0.0.0
 
-# check status
+# check status or check daashboard http://172.17.0.2:8265/#/cluster
 ray status
 
 # run jupyter notebook server and go to the output URL
