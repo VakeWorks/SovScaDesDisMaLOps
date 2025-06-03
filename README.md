@@ -68,14 +68,12 @@ Basics of the Principal-Agent Model under Information Asymmetry.
 
 change directory into SovScaDesDisMaLOps and run the following docker command
 
-Unix/Linux/x86_64:
+**Unix/Linux/x86_64:**
 ```
-
 docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray
 ```
-ARM64/Apple Silicon (M1,M2 etc.): 
+**ARM64/Apple Silicon (M1,M2 etc.):**
 ```
-
 docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray:latest-aarch64
 ```
 
