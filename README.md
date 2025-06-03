@@ -61,6 +61,9 @@ Basics of the Principal-Agent Model under Information Asymmetry.
     - `git pull` and `git status` to keep up to date with the repository
     - `git pull --recurse-submodules` to keep up to date with the repository, including its sub-modules
     - deep-dive as required for `git`-ing sub-modules: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+1. Install ray locally on your linux Mac or Windows laptop:
+    - Linux: install/local/ray/linux/README.md
+    - Mac:   install/local/ray/mac/README.md
 1. To run ray and jupyter inside docker to learn from Sccaling Python with Ray:
 
 ```
