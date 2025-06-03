@@ -61,7 +61,28 @@ Basics of the Principal-Agent Model under Information Asymmetry.
     - `git pull` and `git status` to keep up to date with the repository
     - `git pull --recurse-submodules` to keep up to date with the repository, including its sub-modules
     - deep-dive as required for `git`-ing sub-modules: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+1. To run ray and jupyter inside docker to learn from Sccaling Python with Ray:
 
+```
+# change directory into SovScaDesDisMaLOps and run the following docker command
+docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray
+
+# for jupyter lala land install it (you can do evevrything with python alone)
+pip install jupyter jupytext opencv-python-headless
+
+# to start a head node inside docker / yopu can start ray in python or jupyter dirrectly also
+ray start --head --dashboard-host=0.0.0.0
+
+# check status
+ray status
+
+# run jupyter notebook server and go to the output URL
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+
+# Now you can navigate to http://127.0.0.1:8888/notebooks/SovScaDesDisMaLOps/scalingpythonml/ray_examples/helloWorld/Ray-Ch2-Hello-Worlds.ipynb 
+
+```
+ 
 #### Peparation
 
 Core commands to create this repository, including the addition of submodues.
