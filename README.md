@@ -67,9 +67,18 @@ Basics of the Principal-Agent Model under Information Asymmetry.
 1. To run ray and jupyter inside docker to learn from Scaling Python with Ray:
 
 change directory into SovScaDesDisMaLOps and run the following docker command
+
+Unix/Linux/x86_64:
 ```
+
 docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray
 ```
+ARM64/Apple Silicon (M1,M2 etc.): 
+```
+
+docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray:latest-aarch64
+```
+
 to start a head node inside docker / you can start ray in python or jupyter dirrectly also
 ```
 ray start --head --dashboard-host=0.0.0.0
