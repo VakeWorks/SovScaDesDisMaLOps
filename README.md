@@ -64,27 +64,36 @@ Basics of the Principal-Agent Model under Information Asymmetry.
 1. Install ray locally on your linux Mac or Windows laptop:
     - [Unix/Linux](install/local/ray/linux/README.md)
     - [Mac](install/local/ray/mac/README.md)
-1. To run ray and jupyter inside docker to learn from Sccaling Python with Ray:
+1. To run ray and jupyter inside docker to learn from Scaling Python with Ray:
 
+change directory into SovScaDesDisMaLOps and run the following docker command
 ```
-# change directory into SovScaDesDisMaLOps and run the following docker command
 docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray
+```
 
-# for jupyter lala land install it (you can do evevrything with python alone)
+for jupyter notebook convenience install it (you can do evevrything with python alone)
+```
 pip install jupyter jupytext opencv-python-headless
+```
 
-# to start a head node inside docker / yopu can start ray in python or jupyter dirrectly also
+to start a head node inside docker / you can start ray in python or jupyter dirrectly also
+```
 ray start --head --dashboard-host=0.0.0.0
+```
 
-# check status or check daashboard http://172.17.0.2:8265/#/cluster
-ray status
-
-# run jupyter notebook server and go to the output URL
-jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
-
-# Now you can navigate to http://127.0.0.1:8888/notebooks/SovScaDesDisMaLOps/scalingpythonml/ray_examples/helloWorld/Ray-Ch2-Hello-Worlds.ipynb 
+check status or check dashboard http://172.17.0.1:8265 or whatever URL output from `ray start`
 
 ```
+ray status
+```
+
+run jupyter notebook server and go to the output URL
+```
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
+Open the jupyter notebook server from the given output URL after running previous command.
+Now you can navigate to http://127.0.0.2:8888/notebooks/SovScaDesDisMaLOps/scalingpythonml/ray_examples/helloWorld/Ray-Ch2-Hello-Worlds.ipynb 
+
  
 #### Peparation
 
