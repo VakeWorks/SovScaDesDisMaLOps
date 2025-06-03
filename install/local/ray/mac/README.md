@@ -29,3 +29,20 @@ ray --version
 
 ```
 
+
+Now that ray is installed, let us try the following commands to start and stop ray cluster:
+
+```
+# start ray
+ray start --head
+
+# check http://127.0.0.1:8265/ or whatever URL from the output of previous command 
+#       on a browser to see the running ray cluster
+
+# check status of ray
+ray status
+
+# stop ray 
+ray stop
+
+```
