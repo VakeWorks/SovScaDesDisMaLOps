@@ -1,4 +1,4 @@
-# How to Install ray on Mac Laptop? 
+# How to Install Ray on Linux (devbian/Ubuntu)?
 
 We will use python virtual environments to installl ray.
 
