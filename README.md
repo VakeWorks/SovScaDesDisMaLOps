@@ -70,12 +70,6 @@ change directory into SovScaDesDisMaLOps and run the following docker command
 ```
 docker run --shm-size=2g -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 rayproject/ray
 ```
-
-for jupyter notebook convenience install it (you can do evevrything with python alone)
-```
-pip install jupyter jupytext opencv-python-headless
-```
-
 to start a head node inside docker / you can start ray in python or jupyter dirrectly also
 ```
 ray start --head --dashboard-host=0.0.0.0
@@ -87,13 +81,23 @@ check status or check dashboard http://172.17.0.1:8265 or whatever URL output fr
 ray status
 ```
 
-run jupyter notebook server and go to the output URL
+for jupyter notebook convenience install it (you can do everything with python alone
+and run jupyter notebook server at the output URL
 ```
-jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
-```
-Open the jupyter notebook server from the given output URL after running previous command.
-Now you can navigate to http://127.0.0.2:8888/notebooks/SovScaDesDisMaLOps/scalingpythonml/ray_examples/helloWorld/Ray-Ch2-Hello-Worlds.ipynb 
+## pip install jupyter jupytext opencv-python-headless
+## jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 
+# for jupyterlab
+pip install jupyterlab 
+```
+run Jupyterlab
+```
+jupyter lab --ip 0.0.0.0 --no-browser --allow-root
+```
+
+Open the jupyter notebook server from the given output URL after running previous command.
+Now you can navigate to:
+http://127.0.0.2:8888/lab/tree/SovScaDesDisMaLOps/scalingpythonml/ray_examples/helloWorld/Ray-Ch2-Hello-Worlds.ipynb
  
 #### Peparation
 
