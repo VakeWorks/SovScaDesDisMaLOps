@@ -5,6 +5,7 @@ This is for dockerized mdbook and mdslides preparation for workshops and courses
 The following files are covered by the LICENSE.
 They have been simpllliffied and modified ffor this project..
 The originaal project is from: https://github.com/peaceiris/docker-mdbook/tree/main
+```
 .
 ├── deps
 │   ├── Cargo.lock
@@ -16,7 +17,7 @@ The originaal project is from: https://github.com/peaceiris/docker-mdbook/tree/m
 ├── LICENSE
 ├── Makefile
 └── README.md
-
+```
 
 To build the mdbook and mdslides
 ```
