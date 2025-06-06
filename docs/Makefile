@@ -124,6 +124,7 @@ compose-build:
 	cd ${DOCKER_BOOK_DIR} && \
 	docker compose run --rm mdbook build && \
 	docker compose run --rm --entrypoint sh mdbook -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
+	docker compose run --rm --entrypoint sh mdbook -c 'cp -r ./src/images ./slides/' && \
 	cd ${CURRENT_WORKING_DIR}
 
 .PHONY: compose-serve
