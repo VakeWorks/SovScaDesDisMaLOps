@@ -46,6 +46,9 @@ To run docker
 ```
 make run
 ```
-docker tag local-image:tagname new-repo:tagname
-docker push new-repo:tagname
-docker push vakeworks/mdbook:tagname
+
+To push images (with other tags) to dockehub if existing images are outdated or unacceptable.
+```
+docker push vakeworks/mdbook:v0.4.51-rust-amd64
+docker push vakeworks/mdbook:v0.4.51-amd64
+```
