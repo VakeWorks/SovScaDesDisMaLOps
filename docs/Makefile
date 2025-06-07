@@ -1,12 +1,16 @@
+include .env 
 DOCKER_CLI_EXPERIMENTAL := enabled
 DOCKER_BUILDKIT := 1
 
 CURRENT_WORKING_DIR := $(shell pwd)
 DOCKER_BOOK_DIR := ./2025
 DOCKER_USERNAME := raazesh
+DOCKER_ORGZNAME := vakeworks
 DOCKER_IMAGE_NAME := mdbook
-DOCKER_HUB_BASE_NAME := ${DOCKER_USERNAME}/${DOCKER_IMAGE_NAME}
+DOCKER_HUB_BASE_NAME := ${DOCKER_ORGZNAME}/${DOCKER_IMAGE_NAME}
 DOCKER_BASE_NAME := ghcr.io/${DOCKER_HUB_BASE_NAME}
+ALPINE_BASE_IMAGE := alpine:3.22.0
+RUST_BASE_IMAGE := rust:1.87.0-alpine3.22
 DOCKER_VERSION := $(shell cat ./deps/Cargo.toml | grep 'mdbook = ' | awk '{print $$3}' | tr -d '"')
 MDBOOK_MERMAID_VERSION := $(shell cat ./deps/Cargo.toml | grep 'mdbook-mermaid = ' | awk '{print $$3}' | tr -d '"')
 MDBOOK_TOC_VERSION := $(shell cat ./deps/Cargo.toml | grep 'mdbook-toc = ' | awk '{print $$3}' | tr -d '"')
@@ -37,13 +41,17 @@ else ifeq ($(ARCH), aarch64)
 	CARGO_TARGET := aarch64-unknown-linux-musl
 endif
 
+## do commandline login instructions Logging Into the default Docker Registries at DockerHub and GitHub 
+## generate personal access tokens at dockerhub and github and put the tokens in .env file in this directory
+## https://docs.docker.com/security/for-developers/access-tokens/
+## https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 .PHONY: login-dockerhub
 login-dockerhub:
-	echo "${DOCKER_HUB_TOKEN}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
+	echo "${DOCKERHUB_PersonalAccessTOKEN}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
 
 .PHONY: login-ghcr
 login-ghcr:
-	echo "${GITHUB_TOKEN}" | docker login ghcr.io -u "${DOCKER_USERNAME}" --password-stdin
+	echo "${GITHUB_PersonalAccessTOKEN}" | docker login ghcr.io -u "${DOCKER_USERNAME}" --password-stdin
 
 .PHONY: login
 login: login-dockerhub login-ghcr
@@ -65,7 +73,7 @@ build-alpine:
 		--cache-from "type=gha,scope=${DOCKER_SCOPE}" \
 		--cache-to "type=gha,mode=max,scope=${DOCKER_SCOPE}" \
 		--build-arg MDBOOK_VERSION="${DOCKER_VERSION}" \
-		--build-arg BASE_IMAGE="alpine:3.22.0" \
+		--build-arg BASE_IMAGE="${ALPINE_BASE_IMAGE}" \
 		--build-arg MDBOOK_MERMAID_VERSION="${MDBOOK_MERMAID_VERSION}" \
 		--build-arg MDBOOK_TOC_VERSION="${MDBOOK_TOC_VERSION}" \
 		--build-arg MDBOOK_ADMONISH_VERSION="${MDBOOK_ADMONISH_VERSION}" \
@@ -81,7 +89,7 @@ build-rust:
 		--cache-from "type=gha,scope=${DOCKER_SCOPE}" \
 		--cache-to "type=gha,mode=max,scope=${DOCKER_SCOPE}" \
 		--build-arg MDBOOK_VERSION="${DOCKER_VERSION}" \
-		--build-arg BASE_IMAGE="rust:1.87.0-alpine3.22" \
+		--build-arg BASE_IMAGE=${RUST_BASE_IMAGE} \
 		--build-arg MDBOOK_MERMAID_VERSION="${MDBOOK_MERMAID_VERSION}" \
 		--build-arg MDBOOK_TOC_VERSION="${MDBOOK_TOC_VERSION}" \
 		--build-arg MDBOOK_ADMONISH_VERSION="${MDBOOK_ADMONISH_VERSION}" \
@@ -123,12 +131,16 @@ run:
 compose-build:
 	cd ${DOCKER_BOOK_DIR} && \
 	docker compose run --rm mdbook build && \
-	docker compose run --rm --entrypoint sh mdbook -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
-	docker compose run --rm --entrypoint sh mdbook -c 'cp -r ./src/images ./slides/' && \
+	docker compose run --rm mdbook sh -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
+	docker compose run --rm mdbook sh -c 'cp -r ./src/images ./slides/' && \
 	cd ${CURRENT_WORKING_DIR}
 
-.PHONY: compose-serve
-compose-serve:
+.PHONY: serve-book
+serve-book:
 	cd ${DOCKER_BOOK_DIR} && \
 	docker compose up && \
 	cd ${CURRENT_WORKING_DIR}
+
+.PHONY: serve-slides
+serve-slides:
+	python3 -m http.server -d "${DOCKER_BOOK_DIR}/slides" 
