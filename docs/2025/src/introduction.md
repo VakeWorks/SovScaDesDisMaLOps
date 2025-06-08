@@ -1,5 +1,5 @@
-<!-- ![VakeWorks logo](./images/VakeWorksTM_284.png)-->
-<img src="images/VakeWorksTM_284.png" alt="VakeWorks logo">
+![VakeWorks logo](./images/VakeWorksTM_284.png)
+<!-- <img src="images/VakeWorksTM_284.png" alt="VakeWorks logo"> -->
 
 # Introduction
 

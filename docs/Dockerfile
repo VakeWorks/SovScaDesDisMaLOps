@@ -42,7 +42,7 @@ RUN --mount=type=cache,sharing=locked,target=/usr/local/cargo-target \
     cargo install mdbook-graphviz --version "${MDBOOK_GRAPHVIZ_VERSION}" --target "${CARGO_TARGET}" && \
     strip "$(which mdbook-graphviz)"
 
-FROM ${BASE_IMAGE}
+FROM "${BASE_IMAGE}"
 
 RUN apk update && apk add musl-dev && apk add graphviz
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]

@@ -1,4 +1,4 @@
-include .env 
+#include .env 
 DOCKER_CLI_EXPERIMENTAL := enabled
 DOCKER_BUILDKIT := 1
 
@@ -129,11 +129,12 @@ run:
 
 .PHONY: compose-build
 compose-build:
-	cd ${DOCKER_BOOK_DIR} && \
+	cd "${DOCKER_BOOK_DIR}" && \
 	docker compose run --rm mdbook build && \
-	docker compose run --rm mdbook sh -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
-	docker compose run --rm mdbook sh -c 'cp -r ./src/images ./slides/' && \
-	cd ${CURRENT_WORKING_DIR}
+	docker compose run --rm --entrypoint sh mdbook -c 'mdbook-admonish install /book' && \
+	docker compose run --rm --entrypoint sh mdbook -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
+	docker compose run --rm --entrypoint sh mdbook -c 'cp -r ./src/images ./slides/' && \
+	cd "${CURRENT_WORKING_DIR}"
 
 .PHONY: serve-book
 serve-book:
