@@ -65,6 +65,7 @@ Basics of the Principal-Agent Model under Information Asymmetry.
     - [Unix/Linux](install/local/ray/linux/README.md)
     - [Mac](install/local/ray/mac/README.md)
 1. To run ray and jupyter inside docker to learn from Scaling Python with Ray:
+    - Learn about Jupyterlab notebooks: https://jupyterlab.readthedocs.io/en/latest/user/notebook.html
 
 change directory into SovScaDesDisMaLOps and run the following docker command
 
