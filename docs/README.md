@@ -38,22 +38,32 @@ To build the following docker images (or those for your architecture):
 make build
 ```
 
-To build the mdbook and mdslides
+After build test it:
+```
+make test
+```
+You should see the mdbook version output twice for each build like this:
+```
+mdbook v0.4.51
+mdbook v0.4.51
+```
+
+To build the mdbook and mdslides:
 ```
 make compose-build
 ```
 
-To serve the book
+To serve the book:
 ```
 make serve-book
 ```
 
-To serve the slides you need to roll your own server
+To serve the slides you need to roll your own server:
 ```
 make serve-slides  # python3 -m http.server -d ./2025/slides
 ```
 
-To run docker
+To run docker:
 ```
 make run
 ```
