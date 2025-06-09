@@ -1,4 +1,5 @@
 # syntax=docker/dockerfile:1
+# check=skip=InvalidDefaultArgInFrom
 ARG BASE_IMAGE
 
 FROM rust:1.87.0-slim-bookworm AS builder
@@ -42,7 +43,7 @@ RUN --mount=type=cache,sharing=locked,target=/usr/local/cargo-target \
     cargo install mdbook-graphviz --version "${MDBOOK_GRAPHVIZ_VERSION}" --target "${CARGO_TARGET}" && \
     strip "$(which mdbook-graphviz)"
 
-FROM ${BASE_IMAGE}
+FROM "${BASE_IMAGE}"
 
 RUN apk update && apk add musl-dev && apk add graphviz
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
