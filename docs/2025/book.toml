@@ -12,12 +12,5 @@ skip_slides = ["how-cheatsheets-work.md", "cpp-cheatsheet.md"]
 [preprocessor.graphviz]
 command = "mdbook-graphviz"
 
-[preprocessor.admonish]
-command = "mdbook-admonish"
-assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
-
-[output.html]
-additional-css = ["/book/mdbook-admonish.css"]
-
 [output.html.playground]
 copyable = true          # include the copy button for copying code snippets

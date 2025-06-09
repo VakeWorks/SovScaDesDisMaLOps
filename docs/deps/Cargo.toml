@@ -1,8 +1,8 @@
 [package]
 name = "docker-mdbook"
 version = "0.1.0"
-authors = ["peaceiris <30958501+peaceiris@users.noreply.github.com>"]
-edition = "2018"
+authors = ["VakeWorks"]
+edition = "2025"
 
 [dependencies]
 mdbook = "0.4.51"
