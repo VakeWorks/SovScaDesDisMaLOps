@@ -68,13 +68,18 @@ To run docker:
 make run
 ```
 
-## Development
+## Development in Linux
 
 To push images (with other tags) to dockehub if existing images are outdated or unacceptable.
 ```
 docker push vakeworks/mdbook:v0.4.51-rust-amd64
 docker push vakeworks/mdbook:v0.4.51-amd64
 ```
+
+To do a clean uninstall and reinstallation of docker:
+
+- https://docs.docker.com/engine/install/ubuntu/#uninstall-docker-engine
+- https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
 It takes a looong time (hours) to build rust for other architectures using emulation.
 So it is easiest to have collaborators build images in their architecture and push to dockerhub.
@@ -93,7 +98,7 @@ docker info -f '{{ .DriverStatus }}'
 # [[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]]
 uname -r # check linux kerner version
 sudo apt-get install binfmt-support #
-docker run --privileged --rm tonistiigi/binfmt --install 
+docker run --privileged --rm tonistiigi/binfmt --install all
 $ sudo ls /proc/sys/fs/binfmt_misc/qemu-*
 /proc/sys/fs/binfmt_misc/qemu-aarch64  /proc/sys/fs/binfmt_misc/qemu-loongarch64  /proc/sys/fs/binfmt_misc/qemu-mips64el  /proc/sys/fs/binfmt_misc/qemu-riscv64
 /proc/sys/fs/binfmt_misc/qemu-arm      /proc/sys/fs/binfmt_misc/qemu-mips64	  /proc/sys/fs/binfmt_misc/qemu-ppc64le   /proc/sys/fs/binfmt_misc/qemu-s390x
@@ -101,3 +106,16 @@ $ sudo ls /proc/sys/fs/binfmt_misc/qemu-*
 See
 - https://docs.docker.com/build/building/multi-platform/#simple-multi-platform-build-using-emulation
 
+To completely uninstall:
+```
+# for each architecture from 
+sudo ls /proc/sys/fs/binfmt_misc/qemu-*
+docker run --privileged --rm tonistiigi/binfmt --uninstall qemu-aarch64 
+...
+sudo apt-get remove binfmt-support
+sudo rm /etc/docker/daemon.json
+```
+
+BUGS
+- InvalidDefaultArgInFrom: Default value for ARG "${BASE_IMAGE}" results in empty or invalid base image name (line 45)
+  - add `# check=skip=InvalidDefaultArgInFrom` in Dockerfile

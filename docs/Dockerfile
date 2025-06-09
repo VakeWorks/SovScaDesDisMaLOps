@@ -1,4 +1,5 @@
 # syntax=docker/dockerfile:1
+# check=skip=InvalidDefaultArgInFrom
 ARG BASE_IMAGE
 
 FROM rust:1.87.0-slim-bookworm AS builder
