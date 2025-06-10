@@ -18,5 +18,7 @@ mkdir -p vakeworks-site/SovScaDesDisMaLOps/2025
 cp -r book vakeworks-site/SovScaDesDisMaLOps/2025
 cp -r slides vakeworks-site/SovScaDesDisMaLOps/2025
 
-rsync --delete -a -e "ssh -p 21098" vakeworks-site/ $VAKEWORKS_USERNAME@$VAKEWORKS_SERVER:~/www
+rsync -a -e "ssh -p 21098" vakeworks-site/ $VAKEWORKS_USERNAME@$VAKEWORKS_SERVER:~/www
+rsync --delete -a -e "ssh -p 21098" vakeworks-site/SovScaDesDisMaLOps/2025/ $VAKEWORKS_USERNAME@$VAKEWORKS_SERVER:~/www/SovScaDesDisMaLOps/2025
+
 rm -rf .env

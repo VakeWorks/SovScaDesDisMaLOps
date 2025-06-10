@@ -68,6 +68,11 @@ To run docker:
 make run
 ```
 
+To deploy to webserver you need .env file with variables giving ssh access to webserver.
+```
+make deploy-to-vakeworks-site
+```
+
 ## Development in Linux
 
 To push images (with other tags) to dockehub if existing images are outdated or unacceptable.
