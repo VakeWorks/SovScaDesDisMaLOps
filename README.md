@@ -6,6 +6,17 @@
 
 This repository is part of the needed preparation for [Wallenberg AI, Autonomous Systems and Software Program (WASP-AI)](https://wasp-sweden.org/) Summer School in 2025.
 
+You can find the book, slides and pure markdown versions of this work (in progress) here:
+
+- https://vake.works/book
+- https://vake.works/slides
+- [docs/2025/src/SUMMARY.md](docs/2025/src/SUMMARY.md)
+
+The content below will be migrated to the above links in time.
+
+---
+
+
 The ideas and concepts as well as working codes will be made availbale here for self-study and group-study for anyone who is interested in SovScaDesDisMaLOps.
 
 ## THM: Theoretical Modules
