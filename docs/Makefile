@@ -1,4 +1,4 @@
-include .env 
+#include .env
 DOCKER_CLI_EXPERIMENTAL := enabled
 DOCKER_BUILDKIT := 1
 
@@ -149,7 +149,7 @@ serve-book:
 serve-slides:
 	python3 -m http.server -d "${DOCKER_BOOK_DIR}/slides" 
 
-## needs .env file with required environment variables
 .PHONY: deploy-to-vakeworks-site
 deploy-to-vakeworks-site:
+	cp .env "${DOCKER_BOOK_DIR}"
 	docker run --rm -i -t -v "${DOCKER_BOOK_DIR}:/book" -p "3000:3000" -p "3001:3001" --entrypoint /book/deploy.sh "${HUB_NAME}-$(PLATFORM)"

@@ -19,3 +19,4 @@ cp -r book vakeworks-site/SovScaDesDisMaLOps/2025
 cp -r slides vakeworks-site/SovScaDesDisMaLOps/2025
 
 rsync --delete -a -e "ssh -p 21098" vakeworks-site/ $VAKEWORKS_USERNAME@$VAKEWORKS_SERVER:~/www
+rm -rf .env
