@@ -1,4 +1,4 @@
-#include .env 
+include .env 
 DOCKER_CLI_EXPERIMENTAL := enabled
 DOCKER_BUILDKIT := 1
 
@@ -6,6 +6,8 @@ CURRENT_WORKING_DIR := $(shell pwd)
 DOCKER_BOOK_DIR := ./2025
 DOCKER_USERNAME := raazesh
 DOCKER_ORGZNAME := vakeworks
+VAKEWORKS_SITE_DIR := vakeworks-site
+VAKEWORKS_BOOK_SLIDES_DIR := SovScaDesDisMaLOps
 DOCKER_IMAGE_NAME := mdbook
 DOCKER_HUB_BASE_NAME := ${DOCKER_ORGZNAME}/${DOCKER_IMAGE_NAME}
 DOCKER_BASE_NAME := ghcr.io/${DOCKER_HUB_BASE_NAME}
@@ -97,7 +99,8 @@ build-rust:
 		--build-arg MDBOOK_GRAPHVIZ_VERSION="${MDBOOK_GRAPHVIZ_VERSION}" \
 		--build-arg CARGO_TARGET="${CARGO_TARGET}"
 
-.PHONY: merge
+## not fully tested as it requires multi-architecture docker settings. See README.md
+.PHONY: merge 
 merge:
 	docker buildx imagetools create --tag "${PKG_NAME}" "${HUB_NAME}-amd64" "${HUB_NAME}-arm64"
 	docker buildx imagetools create --tag "${HUB_NAME}" "${HUB_NAME}-amd64" "${HUB_NAME}-arm64"
@@ -118,6 +121,7 @@ test-build:
 	docker run --rm -v "${DOCKER_BOOK_DIR}:/book" "${HUB_NAME}-$(PLATFORM)" build
 	docker run --rm -v "${DOCKER_BOOK_DIR}:/book" --entrypoint sh "${HUB_NAME}-$(PLATFORM)" -c 'mdbook-admonish install /book'
 
+## Not using latest tags to force awareness of intricate dependencies of all the exact versions
 .PHONY: test-build-with-latest
 test-build-with-latest:
 	docker run --rm -v "${DOCKER_BOOK_DIR}:/book" "${HUB_LATEST}" build
@@ -144,3 +148,8 @@ serve-book:
 .PHONY: serve-slides
 serve-slides:
 	python3 -m http.server -d "${DOCKER_BOOK_DIR}/slides" 
+
+## needs .env file with required environment variables
+.PHONY: deploy-to-vakeworks-site
+deploy-to-vakeworks-site:
+	docker run --rm -i -t -v "${DOCKER_BOOK_DIR}:/book" -p "3000:3000" -p "3001:3001" --entrypoint /book/deploy.sh "${HUB_NAME}-$(PLATFORM)"

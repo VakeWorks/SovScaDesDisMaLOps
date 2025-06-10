@@ -45,7 +45,7 @@ RUN --mount=type=cache,sharing=locked,target=/usr/local/cargo-target \
 
 FROM "${BASE_IMAGE}"
 
-RUN apk update && apk add musl-dev && apk add graphviz
+RUN apk update && apk add musl-dev && apk add graphviz && apk add rsync && apk add openssh-client
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 COPY --from=builder /usr/local/cargo/bin/mdbook /usr/bin/mdbook
 COPY --from=builder /usr/local/cargo/bin/mdbook-mermaid /usr/bin/mdbook-mermaid
