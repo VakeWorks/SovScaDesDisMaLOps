@@ -3,7 +3,7 @@
 
 # Introduction
 
-* **SovScaDesDisMaLOps** := Sovereign Scalable Data Engineering Sciences and Distributed Machine Learning Operations
+* **SovScaDesDisMaLOps** := Sovereign Scalable Data Engineering Sciences and Distributed Machine Learning Operations.
 
 
 ## THM: Theoretical Modules -- Overview
@@ -25,7 +25,7 @@ matematics + statistics + computing + micro-economics ++ domain-expertise and en
 
 ## SovScaDesDisMaLOps 
 
-**SovScaDesDisMaLOps** := Sovereign Scalable Data Engineering Sciences and Distributed Machine Learning Operations
+**SovScaDesDisMaLOps** := Sovereign Scalable Data Engineering Sciences and Distributed Machine Learning Operations.
 
 ```dot process
 digraph {
