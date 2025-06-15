@@ -14,7 +14,8 @@ This is the book version of the material. <!-- You can also see the lessons as s
 * [Introduction](./introduction.md)
 <!---
 * [Overview](./overview.md)
-* [Installation](./installation.md)--->
+* [Installation](./installation.md)
+--->
 
 <!--
 
