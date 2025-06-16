@@ -31,4 +31,12 @@ We encourage the use of this material, under the terms of the above license, in 
 
 Copyright (c) VakeWorks, 2025
 
-![VakeWorks logo](images/VakeWorksTM_white_284.png)
+<div class="row">
+  <div class="column">
+    <img src="https://vake.works/images/VakeWorksTM_black_284.png" alt="Snow" align="left">
+  </div>
+  <div class="column">
+    <img src="https://vake.works/images/VakeWorksTM_white_284.png" alt="Forest" align="right">
+  </div>
+</div>
+
