@@ -21,11 +21,7 @@ The ideas and concepts as well as working codes will be made available here for 
 
 ## License
 
-<a href="http://creativecommons.org/licenses/by-sa/4.0/">
-<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-</a>
-![Creative Commons Attribution-ShareAlike 4.0 International License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-
+<a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 We encourage the use of this material, under the terms of the above license, in the production and/or delivery of commercial or open-source learning programmes.
 
