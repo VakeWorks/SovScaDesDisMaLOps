@@ -6,7 +6,7 @@ Docker provides the ability to package and run an application in a loosely isola
 
 [Download CLI Cheat Sheet](https://www.docker.com/cheat-sheets/cli) that we will go through next.
 
-## Docker INSTALLATION
+## DOCKER INSTALLATION
 
 Docker Desktop is available for Mac, Linux and Windows
 - <https://docs.docker.com/desktop>
@@ -21,7 +21,7 @@ Check out our docs for information on using Docker
 Alternatively, On Linux Install Docker Engine
 - <https://docs.docker.com/engine/install/>
 
-## Docker IMAGES
+## DOCKER IMAGES
 
 Docker images are a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
@@ -57,7 +57,7 @@ docker search <image_name>
 docker pull <image_name>
 ```
 
-## GENERAL COMMANDS
+## DOCKER GENERAL COMMANDS
 
 ```sh
  # Start the docker daemon
@@ -68,7 +68,7 @@ docker --help
 docker info
 ```
 
-## CONTAINERS
+## DOCKER CONTAINERS
 
 A container is a runtime instance of a docker image. A container will always run the same, regardless of the infrastructure. Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging
 
