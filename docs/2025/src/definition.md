@@ -1,7 +1,6 @@
 ![VakeWorks logo](images/VakeWorksTM_white_284.png)
 
 # Definition
----
 
 ## Definition of SovScaDesDisMaLOps  
 
