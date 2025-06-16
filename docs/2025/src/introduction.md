@@ -7,13 +7,12 @@
 
 * **SovScaDesDisMaLOps** := Sovereign Scalable Data Engineering Sciences and Distributed Machine Learning Operations
 
-- Data Engineering Sciences and Distributed Machine Learning =
-    - matematics + statistics + computing 
-    - micro-economics 
-    - domain-expertise
-- Sovereignty and Scalability =
-    - law  
-    - entrepreneurship
+- **DesDisMaL** := **D**ata Engin**e**ering Science**s** and **Dis**tributed **Ma**chine **L**earning 
+    - matematics + statistics + computing + micro-economics + domain-expertise
+- **SovSca_Ops** := **Sov**ereign and **Sca**lable *(Business and Digital)* **Op**eration**s**
+    - law + entrepreneurship + operations
+    - sovereign = being independent and free from the control of another
+    - scalable = being able to grown on demand
 
 ## SovScaDesDisMaLOps 
 
