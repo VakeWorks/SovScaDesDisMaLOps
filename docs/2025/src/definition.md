@@ -1,7 +1,7 @@
 ![VakeWorks logo](images/VakeWorksTM_white_284.png)
-<!-- <img src="images/VakeWorksTM_284.png" alt="VakeWorks logo"> -->
 
-# Introduction
+# Definition
+---
 
 ## Definition of SovScaDesDisMaLOps  
 

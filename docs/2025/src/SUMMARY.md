@@ -1,15 +1,8 @@
 # Front Matter
 
-This is part of the needed preparation for <!---[Wallenberg AI, Autonomous Systems and Software Program (WASP-AI)](https://wasp-sweden.org/) Summer School in 2025.-->
-The ideas and concepts as well as working codes will be made availbale here for self-study and group-study for anyone who is interested in SovScaDesDisMaLOps.
+[Preface](./preface.md)
 
-This book contains learning material, divided up into slide decks. 
-Each deck constitute a *lesson*. 
-Several *lessons* combine to form a *module*, and a series of *modules* constitute a *learning*. 
-
-This is the book version of the material. <!-- You can also see the lessons as slide decks at <https://.../latest/slides>.-->
-
-# What is SovScaDesDisMaLOps?
+# Introduction
 
 * [Definition](./definition.md)
 * [Overview](./overview.md)
