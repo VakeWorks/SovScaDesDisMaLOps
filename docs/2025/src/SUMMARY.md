@@ -12,8 +12,8 @@ This is the book version of the material. <!-- You can also see the lessons as s
 # What is SovScaDesDisMaLOps?
 
 * [Introduction](./introduction.md)
-<!---
 * [Overview](./overview.md)
+<!---
 * [Installation](./installation.md)
 --->
 
