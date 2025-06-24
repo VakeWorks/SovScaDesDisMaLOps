@@ -92,8 +92,9 @@ http://127.0.0.2:8888/lab/tree/SovScaDesDisMaLOps/scalingpythonml/ray_examples/h
 Core commands to create this repository, including the addition of submodues.
 
 ```
-# get source codes for scaling python with ray book from VakeWorks fork
+# get source codes for "scaling python with ray" and "learning ray"  books from VakeWorks forks
 git submodule add git@github.com:VakeWorks/scalingpythonml.git
+git submodule add git@github.com:VakeWorks/learning_ray.git
 
 # get source codes for ray from ray-project
 git submodule add git@github.com:ray-project/ray.git
