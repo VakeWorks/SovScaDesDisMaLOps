@@ -1,4 +1,4 @@
-# How to Install Ray on Linux (devbian/Ubuntu)?
+# How to Install Ray on Linux (debian/Ubuntu)?
 
 We will use python virtual environments to installl ray.
 
