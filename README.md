@@ -26,6 +26,10 @@ The ideas and concepts as well as working codes will be made available here for 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 We encourage the use of this material, under the terms of the above license, in the production and/or delivery of commercial or open-source learning programmes.
 
+This work relies heavily on past work since 2015 funded by various private and public entities. 
+See https://github.com/lamastex/scalable-data-science
+and the Licenses and acknowledgememts therein. 
+
 Copyright (c) VakeWorks, 2025
 
 ---
