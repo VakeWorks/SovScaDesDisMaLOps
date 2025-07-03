@@ -1,4 +1,4 @@
-FROM rayproject/ray
+FROM rayproject/ray:latest-aarch64
 #FROM rayproject/ray # or other arch
 
 RUN sudo apt-get update
@@ -44,10 +44,9 @@ RUN echo "jupyter lab --ip 0.0.0.0 --no-browser --allow-root"
 ############## Development command tips ##############################
 ######################################################################
 # to build docker image from Dockerfile in this directory and call it test:latest
-# docker build -t test:latest .
-
+# docker build -t sovscadesdismalops:latest .
 # to run in daemon mode
-# docker run --shm-size=10g -d -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 test
+# docker run --shm-size=3g -d -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 sovscadesdismalops 
 
 # to see running containers
 # docker ps
