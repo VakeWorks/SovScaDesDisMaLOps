@@ -4,3 +4,6 @@
 [submodule "ray"]
 	path = ray
 	url = git@github.com:ray-project/ray.git
+[submodule "learning_ray"]
+	path = learning_ray
+	url = git@github.com:VakeWorks/learning_ray.git

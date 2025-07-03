@@ -135,6 +135,7 @@ run:
 compose-build:
 	cd "${DOCKER_BOOK_DIR}" && \
 	docker compose run --rm mdbook build && \
+	docker compose run --rm --entrypoint sh mdbook -c 'rm -rf ./slides' && \
 	docker compose run --rm --entrypoint sh mdbook -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
 	docker compose run --rm --entrypoint sh mdbook -c 'cp -r ./src/images ./slides/' && \
 	cd "${CURRENT_WORKING_DIR}"
@@ -152,4 +153,4 @@ serve-slides:
 .PHONY: deploy-to-vakeworks-site
 deploy-to-vakeworks-site:
 	cp .env "${DOCKER_BOOK_DIR}"
-	docker run --rm -i -t -v "${DOCKER_BOOK_DIR}:/book" -p "3000:3000" -p "3001:3001" --entrypoint /book/deploy.sh "${HUB_NAME}-$(PLATFORM)"
+	docker run --rm -i -t -v "${DOCKER_BOOK_DIR}:/book" --entrypoint /book/deploy.sh "${HUB_NAME}-$(PLATFORM)"

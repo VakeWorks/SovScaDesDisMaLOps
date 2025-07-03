@@ -17,3 +17,6 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# ignore .ipynb_checkpoints
+.ipynb_checkpoints

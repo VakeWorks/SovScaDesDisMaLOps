@@ -14,3 +14,5 @@ command = "mdbook-graphviz"
 
 [output.html.playground]
 copyable = true          # include the copy button for copying code snippets
+runnable = false
+
