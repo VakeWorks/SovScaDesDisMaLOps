@@ -13,7 +13,7 @@
 * [Intellectual Property Laws in Sweden](./ipLawsInSweden.md)
 * [Starting a Business in Sweden](./businessInSweden.md)
 * [Statistical Contract Theory](./statisticalContractTheory.md)
-* [Analysis of Algorithms in DPRAMJAM](./AoA_DPRAM.md)
+* [Analysis of Algorithms and Operations](./AoA_DPRAM.md)
 
 # Practical Modules 
 

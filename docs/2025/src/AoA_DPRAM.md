@@ -1,6 +1,6 @@
-# Analysis of Algorithms in DPRAMJAM
+# Analysis of Algorithms & Operations
 
-DPRAMJAM := Distributed Parallel Random Access Machine Jurisdiction-Aware Model
+**DPRAMJAM := Distributed Parallel Random Access Machine Jurisdiction-Aware Model**
 
 **[1 hour]** 
 
@@ -15,6 +15,8 @@ DPRAMJAM := Distributed Parallel Random Access Machine Jurisdiction-Aware Model
     - we will revisit this example implemented using ray.io in a memory model
   - Fastest Sorting Algorithm in DPRAM model = d distributed PRAM models 
 - *Legal analysis of sovereignty of operations* under **Jurisdiction-Aware Model (JAM)** extend AMMs beyond *analysis of algorithms*
+  - JAM-local-Sverige is our default model when we work in Sweden (Sverige) with sovereign infrasturcture in Sweden
+    - Example: own laptops (default for this workshop), workstations, or own on-premise clouds (NuC cluster) under sovereignty of Sverige
   - many clouds in a sky: "sky computing" means your service is agnostic to a set of clouds    - Example: [databricks](https://databricks.com) offers sky computing across some clouds: AWS, GCP and Azure 
   - JAM-sky-State extends DPRAM by specifying the Nation State of the cloud-provider's HQ, i.e., the State that can enforce contracts and regulate each cloud in the sky.
   - Examples of JAM-sky-State, a set of cloud providers under the jurisdiction of a State:
