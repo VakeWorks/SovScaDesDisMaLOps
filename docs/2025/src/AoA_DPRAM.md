@@ -26,3 +26,4 @@
     - JAM-sky-Sverige includes Elastx, bahnhof, etc.
   - **DPRAMJAM-sky-State** = Distributed Parallel Random Access Machine Jurisdiction-Aware Model is the "Math+Law" model required for sovereign operations in the sky of a said State 
     - i.e., to enforce contracts or prohibit their violations or regulate possible contracts through coercive powers of the said State and not by another *State*.
+- Break-time! ... *AoAO... AoAO ahhhaaaa!*
