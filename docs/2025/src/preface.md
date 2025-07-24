@@ -33,10 +33,10 @@ Copyright (c) VakeWorks, 2025
 
 <div class="row">
   <div class="column">
-    <img src="https://vake.works/images/VakeWorksTM_black_284.png" alt="Snow" align="left">
+    <img src="https://vake.works/images/VakeWorksTM_black_284.png" alt="VakeWorksTM_black logo" align="left">
   </div>
   <div class="column">
-    <img src="https://vake.works/images/VakeWorksTM_white_284.png" alt="Forest" align="right">
+    <img src="https://vake.works/images/VakeWorksTM_white_284.png" alt="VakeWorksTM_white logo" align="right">
   </div>
 </div>
 

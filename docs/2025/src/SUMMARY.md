@@ -17,7 +17,10 @@
 
 # Practical Modules 
 
+* [Command-Line Interface](./cli.md)
 * [Docker](./docker.md)
+* [Ray](./ray.md)
+* [Sovereign Operations](sovops.md)
 
 <!---
 --->

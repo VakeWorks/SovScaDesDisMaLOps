@@ -2,9 +2,10 @@
 
 ## Corporate Jurisdictions and Business Sovereignty  
 
-- Corporate enitites in Sweden?
-  - Sole tradership, Limited Liability Company and others
+- Corporate entities in Sweden?
+  - Sole tradership (Enskild firma), Limited Liability Company (Aktiebolag) and others
+- Structre of Aktiebolag (AB) 
+  - Board of Directors ("responsible for operations"), List of Shareholders ("fractional owners")
 - Resources:
-  - Bolagsverket
-  - ...
+  - [Bolagsverket](https://bolagsverket.se/) "Swedish Ministry of Corporate Affairs"
 

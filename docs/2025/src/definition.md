@@ -28,7 +28,7 @@ digraph {
     Des [label="Data Engineering Sciences"];
     node [shape=record, fillcolor=green3, style=filled];
     DisML [label="Distributed \nMachine Learning"];
-    MLOps [label="MLOps =  Machine Learning,\n DevOps and Data Engineering"];
+    MLOps [label="MLOps =  Machine Learning, DevOps,\n Data Engineering & Security"];
 
     node [shape=record, fillcolor=lightblue, style=filled];
     LawSov [label="Laws of Capitalism,\n Contracts, IP,\n Jurisdiction, Sovereignty"];
@@ -62,4 +62,10 @@ digraph {
     Entrp -> SovScaDesDisMaLOps; 
 }
 ```
+
+# Reference Books
+
+![RefBooks](./images/REFbooks.jpeg)
+
+See [LI post](https://www.linkedin.com/posts/raazesh-sainudiin_law-datascience-law-activity-7344402289090093057-Bz7i) for context.
 
