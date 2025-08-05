@@ -1,12 +1,13 @@
-FROM rayproject/ray:latest-aarch64
+FROM rayproject/ray:dev 
+#FROM rayproject/ray:latest-aarch64
 #FROM rayproject/ray # or other arch
 
 RUN sudo apt-get update
 
 RUN python --version
 RUN pip --version
-RUN pip install jupyterlab
 RUN pip install -U ipywidgets
+RUN pip install jupyterlab
 
 
 # Install the application dependencies
@@ -54,6 +55,8 @@ RUN echo "jupyter lab --ip 0.0.0.0 --no-browser --allow-root"
 # to execute inside running docker container as root or ray user:
 # docker exec -u root -it <containerID> /bin/bash
 # docker exec -u ray -it <containerID> /bin/bash
+# inside docker container you can launch a ray cluster from command-line:
+# ray start --head --dashboard-host 0.0.0.0
 # inside docker container you can run jupyter as follows:
 # jupyter lab --ip 0.0.0.0 --no-browser --allow-root
 ######################################################################

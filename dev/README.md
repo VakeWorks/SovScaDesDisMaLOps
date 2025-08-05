@@ -2,6 +2,8 @@
 
 The following are quick notes for development. They can be ignored as they will be absorbed in the docs/ folder's .md files in time.
 
+copy build-docker.sh to ray/ and build docker for the right arch.
+
 **Core commands needed to develop in this repository:**
 
 1. set up ssh for your github account: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/
