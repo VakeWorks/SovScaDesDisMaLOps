@@ -2,23 +2,39 @@
 # shellcheck disable=SC2086
 # This script is for users to build docker images locally. It is most useful for users wishing to edit the
 # base-deps, or ray images. This script is *not* tested.
+#
+# #################################################################################################
+# adapted for multi-architecture builds from ray-project/ray for vakeworks/SovScaDesDisMaLOps
+# ARM: arm64 or aarch64  for M1/M2/... macs with ARM processorsand
+# INTEL: amd64 or x86_64 for intel processors
+# Just copy this file in ray-project/ray and ./build-docker.sh
+# git clone git@github.com:ray-project/ray.git
+# git clone git@github.com:VakeWorks/SovScaDesDisMaLOps.git
+# cp SovScaDesDisMaLOps/dev/build-docker.sh ray/build-docker.sh
+# cd ray
+# # to make local docker image rayproject/ray:dev for INTEL cpu do:
+# ./build-docker.sh 
+# # to make local docker image rayproject/ray:dev for ARM cpu like M1/M2/... Mac do:
+# ./build-docker.sh --arm
+# #################################################################################################
 
 GPU=""
-# arm64v8 amd64
+# architecture type of host machine for Ubuntu image: arm64v8 or amd64 (default)
 UbuntuHOSTTYPE="amd64"
 BASE_IMAGE="${UbuntuHOSTTYPE}/ubuntu:22.04"
-# aarch64 or x86_64
+# architecture type of host for python wheels, etc: aarch64 or x86_64 (default))
 HOSTTYPE="x86_64"
-#WHEEL_URL="https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-3.0.0.dev0-cp39-cp39-manylinux2014_x86_64.whl"
-#CPP_WHEEL_URL="https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray_cpp-3.0.0.dev0-cp39-cp39-manylinux2014_x86_64.whl"
-WHEEL_URL="https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-3.0.0.dev0-cp39-cp39-manylinux2014_${HOSTTYPE}.whl"
-CPP_WHEEL_URL="https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray_cpp-3.0.0.dev0-cp39-cp39-manylinux2014_${HOSTTYPE}.whl"
 PYTHON_VERSION="3.9"
 
 BUILD_ARGS=()
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
+        --arm)
+            UbuntuHOSTTYPE="arm64v8"
+            BASE_IMAGE="${UbuntuHOSTTYPE}/ubuntu:22.04"
+            HOSTTYPE="aarch64"
+        ;;
         --gpu)
             GPU="-gpu"
             BASE_IMAGE="nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04"
@@ -51,11 +67,14 @@ while [[ $# -gt 0 ]]; do
             PYTHON_VERSION="$1"
         ;;
         *)
-            echo "Usage: build-docker.sh [ --gpu ] [ --base-image ] [ --no-cache-build ] [ --shas-only ] [ --progress-plain] [ --python-version ]"
+            echo "Usage: build-docker.sh [ --arm ] [ --gpu ] [ --base-image ] [ --no-cache-build ] [ --shas-only ] [ --progress-plain] [ --python-version ]"
             exit 1
     esac
     shift
 done
+
+WHEEL_URL="https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-3.0.0.dev0-cp39-cp39-manylinux2014_${HOSTTYPE}.whl"
+CPP_WHEEL_URL="https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray_cpp-3.0.0.dev0-cp39-cp39-manylinux2014_${HOSTTYPE}.whl"
 
 export DOCKER_BUILDKIT=1
 
