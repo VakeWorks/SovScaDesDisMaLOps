@@ -7,6 +7,10 @@
 * [Definition](./definition.md)
 * [Overview](./overview.md)
 
+# Preparation
+
+* [Preparation](./preparation.md)
+
 # Theoretical Modules
 
 * [Laws of Capitalism](./lawsOfCapitalism.md)
