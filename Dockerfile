@@ -46,6 +46,8 @@ RUN echo "jupyter lab --ip 0.0.0.0 --no-browser --allow-root"
 ######################################################################
 # to build docker image from Dockerfile in this directory and call it test:latest
 # docker build -t sovscadesdismalops:latest .
+# On intel x86_64/amd64 architecture: `docker build -t sovscadesdismalops:dev-amd64 .`
+# On arm mac M1/M2/... architecture:  `docker build -t sovscadesdismalops:dev-arm64 .`
 # to run in daemon mode
 # docker run --shm-size=3g -d -t -i -v`pwd`:/home/ray/SovScaDesDisMaLOps -p8888:8888 -p6379:6379 -p10001:10001 -p8265:8265 sovscadesdismalops 
 
