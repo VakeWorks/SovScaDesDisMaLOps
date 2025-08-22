@@ -5,8 +5,8 @@ authors = ["VakeWorks"]
 edition = "2025"
 
 [dependencies]
-mdbook = "0.4.51"
-mdbook-admonish = "1.17.0"
+mdbook = "0.4.52"
+mdbook-admonish = "1.20.0"
 mdbook-mermaid = "0.15.0"
 mdbook-toc = "0.14.2"
 mdslides = "0.6.1"

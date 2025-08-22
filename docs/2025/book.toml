@@ -5,9 +5,23 @@ multilingual = false
 src = "src"
 title = "SovScaDesDisMaLOps Workshop"
 
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
+
+[preprocessor.admonish.default]
+collapsible = true
+
+[preprocessor.admonish.renderer.test]
+render_mode = "strip"
+
+
 [mdslides]
 command = "mdslides"
 skip_slides = ["how-cheatsheets-work.md", "cpp-cheatsheet.md"]
+
+[output.html]
+additional-css = ["./mdbook-admonish.css"]
 
 [preprocessor.graphviz]
 command = "mdbook-graphviz"
@@ -15,4 +29,3 @@ command = "mdbook-graphviz"
 [output.html.playground]
 copyable = true          # include the copy button for copying code snippets
 runnable = false
-

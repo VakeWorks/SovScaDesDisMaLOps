@@ -17,6 +17,7 @@
 * [Intellectual Property Laws in Sweden](./ipLawsInSweden.md)
 * [Starting a Business in Sweden](./businessInSweden.md)
 * [Statistical Contract Theory](./statisticalContractTheory.md)
+* [Machine & Digital Sovereignty](./machine.md)
 * [Analysis of Algorithms and Operations](./AoA_DPRAM.md)
 
 # Practical Modules 

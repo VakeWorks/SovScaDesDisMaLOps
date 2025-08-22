@@ -54,5 +54,6 @@ COPY --from=builder /usr/local/cargo/bin/mdbook-admonish /usr/bin/mdbook-admonis
 COPY --from=builder /usr/local/cargo/bin/mdslides /usr/bin/mdslides
 COPY --from=builder /usr/local/cargo/bin/mdbook-graphviz /usr/bin/mdbook-graphviz
 
+
 WORKDIR /book
 ENTRYPOINT [ "/usr/bin/mdbook" ]
