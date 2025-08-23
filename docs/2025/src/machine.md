@@ -16,10 +16,6 @@
 ## Graphics Processing Unit
 
 
-## GPU Sovereignty
-- NVIDIA
-  - US Cips Act
-- [GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e)
 
 
 ## Anatomy of AI

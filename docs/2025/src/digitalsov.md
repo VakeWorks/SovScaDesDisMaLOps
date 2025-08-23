@@ -78,11 +78,12 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 ## Deep Dive Yourself
 
 - Listen to [Why Countries Must Fight For Digital Sovereignty, 2025-08-21](https://techwontsave.us/episode/290_why_countries_must_fight_for_digital_sovereignty_w_cecilia_rikap) - 1 hour
-- Read (Optional): [Cecilia Rikap and Paris Marx worked on a report offering a roadmap to reclaiming digital sovereignty](https://discovery.ucl.ac.uk/id/eprint/10202865/) 
-- There are several other sources to deep dive further into the pressing issue of machine and digital sovereignty:
+- Read (optional): [Cecilia Rikap and Paris Marx worked on a report offering a roadmap to reclaiming digital sovereignty](https://discovery.ucl.ac.uk/id/eprint/10202865/) 
+- More deep dives into the pressing issue of digital sovereignty:
   - [The CLOUD Act and Transatlantic Trust, 2023-03-29](https://web.archive.org/web/20250823071207/https://www.csis.org/analysis/cloud-act-and-transatlantic-trust)
   - [Euro techies call for sovereign fund to escape Uncle Sam's digital death grip, 2025-03-17](https://web.archive.org/web/20250823071348/https://www.theregister.com/2025/03/17/european_tech_sovereign_fund/)
   - [Digital Sovereignty is far more than compliance, 2025-07-29](https://web.archive.org/web/20250823071733/https://www.redhat.com/en/blog/digital-severeignty-compliance)
   - [Policy & Internet: Volume 16, Issue 4, 2025-01-28](https://onlinelibrary.wiley.com/toc/19442866/2024/16/4)
     - [Unthinking Digital Sovereignty: A Critical Reflection on Origins, Objectives, and Practices](https://onlinelibrary.wiley.com/doi/10.1002/poi3.437)
+- [GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e)
 
