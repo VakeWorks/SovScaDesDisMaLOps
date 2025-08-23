@@ -13,11 +13,20 @@ According to [The World Economic Forum](https://web.archive.org/web/202508222020
 
 ## US, Chinese and European Models 
 
-<img src="./images/USChinaEU_digsov.jpg" width="600" align="cnter" alt="US, China & EU Models"> 
+<a href="https://web.archive.org/web/20250822202008im_/https://assets.weforum.org/editor/qglzjlEcs7xo998CJotB4woXTCxoHBnle9N9g4RjbDk.JPG">
+<img src="./images/USChinaEU_digsov.jpg" width="600" align="cnter" alt="US, China & EU Models">
+</a>
 
-[img src](https://web.archive.org/web/20250822202008im_/https://assets.weforum.org/editor/qglzjlEcs7xo998CJotB4woXTCxoHBnle9N9g4RjbDk.JPG)
+## [Erosion of European Trust in US Tech](https://web.archive.org/web/20250823120402/https://www.techpolicy.press/kill-switch-shield-and-the-recurring-erosion-of-trust-in-us-tech/)
 
- 
+<a href="https://web.archive.org/web/20250823120402im_/https://cdn.sanity.io/images/3tzzh18d/production/6b30d6b7f02f62575806031bb27ab9a57bbb2a40-1200x675.png">
+<img src="./images/PowerProfit-Clarote-AI4Media-BetterImagesofAI-CCby4.0-1200x675.png" width="600" align="cnter" alt="Power/Profit—Clarote & AI4Media / Better Images of AI / CC by 4.0">
+</a>
+
+> For decades, government anxieties regarding the internet centered on data "pulls" (mass surveillance programs siphoning information) from sovereign states and data "pushes" (flooding nations with targeted influence campaigns). In the emerging internet governance era, the focus is on data cuts: when governments and companies get cut off from the network, unable to access their information or contacts.
+>
+> ... [Trump was threatening EU leaders with tariffs](https://web.archive.org/web/20250823123248/https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-issues-directive-to-prevent-the-unfair-exploitation-of-american-innovation/) if they did not align with his Make America Great Again agenda. The risk that US sanctions could trigger loss of access to critical digital infrastructure should spark widespread concerns about the degree of US control over key information platforms, including the potential for President Trump to [weaponize the private US corporations](https://journals.sagepub.com/doi/full/10.1177/20594364221139729) that governments, such as the EU, rely upon.
+
 ## Two recent violations
 
 - Example 1: [Microsoft admits it 'cannot guarantee' data sovereignty 2025-07-25](https://web.archive.org/web/20250822170147/https://www.theregister.com/2025/07/25/microsoft_admits_it_cannot_guarantee/)
@@ -83,6 +92,7 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
   - [The CLOUD Act and Transatlantic Trust, 2023-03-29](https://web.archive.org/web/20250823071207/https://www.csis.org/analysis/cloud-act-and-transatlantic-trust)
   - [Euro techies call for sovereign fund to escape Uncle Sam's digital death grip, 2025-03-17](https://web.archive.org/web/20250823071348/https://www.theregister.com/2025/03/17/european_tech_sovereign_fund/)
   - [Digital Sovereignty is far more than compliance, 2025-07-29](https://web.archive.org/web/20250823071733/https://www.redhat.com/en/blog/digital-severeignty-compliance)
+  - ['Kill Switch Shield' and the Recurring Erosion of Trust in US Tech](https://web.archive.org/web/20250823120402/https://www.techpolicy.press/kill-switch-shield-and-the-recurring-erosion-of-trust-in-us-tech/)
   - [Policy & Internet: Volume 16, Issue 4, 2025-01-28](https://onlinelibrary.wiley.com/toc/19442866/2024/16/4)
     - [Unthinking Digital Sovereignty: A Critical Reflection on Origins, Objectives, and Practices](https://onlinelibrary.wiley.com/doi/10.1002/poi3.437)
 - [GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e)
