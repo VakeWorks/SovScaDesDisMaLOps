@@ -119,9 +119,11 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 
 > Talking about digital sovereignty shouldn’t make you look like a traitor. But today, it does.
 >
->    Say you want alternatives to U.S. tech? You’re accused of being anti-American.
->    Mention China’s progress in AI? You’re branded pro-authoritarian.
->    Advocate for local infrastructure? Now you’re undermining allies.
+>   - Say you want alternatives to U.S. tech? You’re accused of being anti-American.
+>
+>   - Mention China’s progress in AI? You’re branded pro-authoritarian.
+>
+>   - Advocate for local infrastructure? Now you’re undermining allies.
 >
 > This framing is toxic. And it’s designed to shut down the one conversation that actually matters:
 >
@@ -136,7 +138,7 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 > Because digital sovereignty isn’t about picking sides. It’s about having the right to choose your own system—without permission, without gatekeepers, and without apology.
 >
 
-Let us actually peruse through this article by Dion Wiggins now!
+Let us actually peruse through [this article](https://web.archive.org/web/20250824131935/https://www.linkedin.com/pulse/digital-sovereignty-doesnt-mean-youre-anti-america-its-dion-wiggins-tpoec?trk=article-ssr-frontend-pulse_little-text-block) by Dion Wiggins now!
 
 
 
