@@ -107,7 +107,7 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 
 <a href="https://web.archive.org/web/20250823203803im_/https://media.licdn.com/dms/image/v2/D4E12AQHU1fYAnYD-yQ/article-cover_image-shrink_720_1280/B4EZjC7D0GGwAY-/0/1755616928675?e=2147483647&v=beta&t=9MysdE1ixwCtirV7v2VJodbnELjmYEHaNt3oSwgDL-E"><img src="./images/gpusovshift.png" width="600" align="middle" alt="GPU Sovereignty Shift"></a>
 
-[GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e): A forensic look at how Huawei, ByteDance, Tencent, Alibaba, Baidu, iFLYTEK, Cambricon, Biren, Moore Threads, SenseTime, Megvii, Horizon Robotics, Zhipu AI, 4Paradigm, and MiniMax are restructuring AI infrastructure and strategy to thrive on sovereign GPUs and redefine the future of AI.
+[GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia, Dion Wiggins, 2025-08-19](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e)
 
 > This is a forensic deep-dive into the collapse of Nvidia’s dominance in China and the rise of a fully sovereign AI hardware-software stack that is now being exported globally. Washington’s sanctions, intended to cripple China’s AI ambitions, instead forced the world’s largest AI market to accelerate domestic innovation, flipping dependency into deterrence in less than two years. The result: Chinese players like Huawei, ByteDance, Tencent, Alibaba, Baidu, and a new generation of hardware startups have restructured their entire AI infrastructure around sovereign GPUs, breaking the U.S. chokehold on advanced compute.
 
@@ -115,7 +115,7 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 
 <a href="https://web.archive.org/web/20250824131935im_/https://media.licdn.com/dms/image/v2/D5612AQFp-kUPefegHA/article-cover_image-shrink_720_1280/B56ZcVk2jYHgAU-/0/1748413680122?e=2147483647&v=beta&t=1nEQ546IRXX6kfxdPuqh7YpCzbikp1I8SJldFEH1FSA"><img src="./images/digsovisantidep.png" width="600" align="middle" alt="Digital Sovereignty means Anti-Dependence"></a>
 
-READ: [No, Digital Sovereignty Doesn’t Mean You’re Anti-America or Pro-China: It’s Anti-Dependence](https://web.archive.org/web/20250824131935/https://www.linkedin.com/pulse/digital-sovereignty-doesnt-mean-youre-anti-america-its-dion-wiggins-tpoec?trk=article-ssr-frontend-pulse_little-text-block)
+[No, Digital Sovereignty Doesn’t Mean You’re Anti-America or Pro-China: It’s Anti-Dependence, Dion Wiggins, 2025-05-28](https://web.archive.org/web/20250824131935/https://www.linkedin.com/pulse/digital-sovereignty-doesnt-mean-youre-anti-america-its-dion-wiggins-tpoec?trk=article-ssr-frontend-pulse_little-text-block)
 
 > Talking about digital sovereignty shouldn’t make you look like a traitor. But today, it does.
 >
@@ -154,5 +154,6 @@ Let us actually peruse through this article by Dion Wiggins now!
   - ['Kill Switch Shield' and the Recurring Erosion of Trust in US Tech](https://web.archive.org/web/20250823120402/https://www.techpolicy.press/kill-switch-shield-and-the-recurring-erosion-of-trust-in-us-tech/)
   - [Policy & Internet: Volume 16, Issue 4, 2025-01-28](https://onlinelibrary.wiley.com/toc/19442866/2024/16/4)
     - [Unthinking Digital Sovereignty: A Critical Reflection on Origins, Objectives, and Practices](https://onlinelibrary.wiley.com/doi/10.1002/poi3.437)
-- [GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e)
+- [GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia, Dion Wiggins, 2025-08-19](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e)
+- [No, Digital Sovereignty Doesn’t Mean You’re Anti-America or Pro-China: It’s Anti-Dependence, Dion Wiggins, 2025-05-28](https://web.archive.org/web/20250824131935/https://www.linkedin.com/pulse/digital-sovereignty-doesnt-mean-youre-anti-america-its-dion-wiggins-tpoec?trk=article-ssr-frontend-pulse_little-text-block)
 
