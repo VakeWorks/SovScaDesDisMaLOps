@@ -106,11 +106,11 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 
 ## Deep Dive Yourself
 
-- Watch [The Tech Coup: How to Save Democracy from Silicon Valley](https://youtu.be/D0Aqx1fhuxg?si=N3kvsSVyIBJVi7lM) -1.5h
+- [The Tech Coup: How to Save Democracy from Silicon Valley](https://youtu.be/D0Aqx1fhuxg?si=N3kvsSVyIBJVi7lM) -1.5h
   - Read (optional):  [The Tech Coup](https://thetechcoup.com/)
-- Listen to [Why Countries Must Fight For Digital Sovereignty, 2025-08-21](https://techwontsave.us/episode/290_why_countries_must_fight_for_digital_sovereignty_w_cecilia_rikap) -1h
+- [Why Countries Must Fight For Digital Sovereignty, 2025-08-21](https://techwontsave.us/episode/290_why_countries_must_fight_for_digital_sovereignty_w_cecilia_rikap) -1h
   - Read (optional): [Reclaiming digital sovereignty: A roadmap to build a digital stack for people and the planet](https://discovery.ucl.ac.uk/id/eprint/10202865/) 
-- Non-exhuastive deep dives into the pressing issue of digital sovereignty:
+- Non-exhuastive deep dives into digital sovereignty:
   - [The CLOUD Act and Transatlantic Trust, 2023-03-29](https://web.archive.org/web/20250823071207/https://www.csis.org/analysis/cloud-act-and-transatlantic-trust)
   - [Euro techies call for sovereign fund to escape Uncle Sam's digital death grip, 2025-03-17](https://web.archive.org/web/20250823071348/https://www.theregister.com/2025/03/17/european_tech_sovereign_fund/)
   - [Digital Sovereignty is far more than compliance, 2025-07-29](https://web.archive.org/web/20250823071733/https://www.redhat.com/en/blog/digital-severeignty-compliance)
