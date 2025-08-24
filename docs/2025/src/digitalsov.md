@@ -22,10 +22,30 @@ According to [The World Economic Forum](https://web.archive.org/web/202508222020
 
 ## Data Cut & Kill Switch Anxieties 
 
-['Kill Switch Shield' & the Recurring Erosion of Trust in US Tech](https://web.archive.org/web/20250823120402/https://www.techpolicy.press/kill-switch-shield-and-the-recurring-erosion-of-trust-in-us-tech/)
+['Kill Switch Shield' & the Recurring Erosion of Trust in US Tech 2025-07-28](https://web.archive.org/web/20250823120402/https://www.techpolicy.press/kill-switch-shield-and-the-recurring-erosion-of-trust-in-us-tech/)
 
 > In the emerging internet governance era, the focus (of government anxieties) is on data cuts: when governments and companies get cut off from the network, unable to access their information or contacts.
 > ... [Trump was threatening EU leaders with tariffs](https://web.archive.org/web/20250823123248/https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-issues-directive-to-prevent-the-unfair-exploitation-of-american-innovation/) if they did not align with his Make America Great Again agenda. The risk that US sanctions could trigger loss of access to critical digital infrastructure should spark widespread concerns about the degree of US control over key information platforms, including the potential for President Trump to [weaponize the private US corporations](https://journals.sagepub.com/doi/full/10.1177/20594364221139729) that governments, such as the EU, rely upon.
+
+## Technological Sovereignty Vs. Digital Colonialism
+
+Marietje Schaake, the author of [The Tech Coup](https://thetechcoup.com/), 
+in [Beware America’s AI colonialism 2025-08-20](https://web.archive.org/web/20250824095017/https://www.ft.com/content/80bc0d67-faaf-4373-ad18-db15da721054?accessToken=zwAGPRoxarYokdOAvA1n-q9Dc9OtGNsV2nIQVA.MEUCIQCzQh9wSm1RE_eGFY5jp8HpcIdpM5ZXIFY-HluaySoYHgIgeX4i0nP534xyjXteKI6zfaGXd0Z0FGigeTFsUZiagII&sharetype=gift&token=393085fb-e070-4f14-a283-be4db441dba6), issues a timely warning about the dangerous conundrum American AI poses to other states. 
+
+> The choice facing world leaders is not between US or Chinese AI dominance but between technological sovereignty and digital colonialism. Each trade confrontation should teach potential partners that today’s commercial relationships can become tomorrow’s coercive leverage.
+
+Some key quotes are as follows:
+
+> President Donald Trump’s trade wars are teaching the world a harsh lesson: dependencies get weaponised. In the White House’s view, international trade is zero-sum. With his AI Action Plan promising “unchallenged” technological dominance a further ambition is clear. Will the rest of the world recognise that embracing US artificial intelligence offers Trump an even more potent tool for coercion?
+
+> More than previous technologies, AI systems create uniquely vulnerable dependencies. Algorithms are not transparent and can be manipulated to bias outputs — whether challenging antitrust rules or supporting protectionism. With a significant set of US tech chief executives pledging allegiance to this administration, the synergy between political and corporate agendas is clear. AI companies have even deployed team members in the US armed forces.
+
+> The weaponisation possibilities are extensive. Take the Cloud Act, which forces the disclosure of foreign data by domestic cloud providers, whose services dominate worldwide.
+
+> It is easy to see how tech can become an even greater bargaining chip in US foreign policy. As with steel or pharmaceuticals, Trump’s White House can simply impose a tariff on AI services or critical elements of the supply chain. The administration is already pushing the EU to weaken its Digital Services Act and considered leveraging tariffs to force a change to the UK’s online safety laws earlier this year.
+
+> The Trump administration frames the AI race as a competition between democratic and authoritarian models. Yet this obscures a troubling reality: the gap between US and Chinese approaches to technological control is narrowing. Governance grows more authoritarian by the day in Trump’s America, with political interventions reaching individual company levels.
+
 
 ## Two recent violations
 
@@ -86,8 +106,10 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 
 ## Deep Dive Yourself
 
+- Watch [The Tech Coup: How to Save Democracy from Silicon Valley](https://youtu.be/D0Aqx1fhuxg?si=N3kvsSVyIBJVi7lM) - 1.5 hours
+  - Read (optional):  [The Tech Coup](https://thetechcoup.com/)
 - Listen to [Why Countries Must Fight For Digital Sovereignty, 2025-08-21](https://techwontsave.us/episode/290_why_countries_must_fight_for_digital_sovereignty_w_cecilia_rikap) - 1 hour
-- Read (optional): [Cecilia Rikap and Paris Marx worked on a report offering a roadmap to reclaiming digital sovereignty](https://discovery.ucl.ac.uk/id/eprint/10202865/) 
+  - Read (optional): [Cecilia Rikap and Paris Marx worked on a report offering a roadmap to reclaiming digital sovereignty](https://discovery.ucl.ac.uk/id/eprint/10202865/) 
 - More deep dives into the pressing issue of digital sovereignty:
   - [The CLOUD Act and Transatlantic Trust, 2023-03-29](https://web.archive.org/web/20250823071207/https://www.csis.org/analysis/cloud-act-and-transatlantic-trust)
   - [Euro techies call for sovereign fund to escape Uncle Sam's digital death grip, 2025-03-17](https://web.archive.org/web/20250823071348/https://www.theregister.com/2025/03/17/european_tech_sovereign_fund/)
