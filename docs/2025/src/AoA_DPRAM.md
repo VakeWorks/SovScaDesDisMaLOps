@@ -6,7 +6,7 @@
 
 - **Abstract Machine Model (AMM)**
   - SRAM: Sequential Random Access Machine Model (older computers)
-  - PRAM: Parallel Random Access Machine Model (laptops and smarart phones) 
+  - PRAM: Parallel Random Access Machine Model (laptops and smart phones) 
   - DPRAM: Distributed Parallel Random Access Machine Model (cluster of computers or cloud)
 - *Asymptotic analysis of efficiency of algorithms* under different AMMs
   - SRAM PRAM and DPRAM models with 1, 2, ..., p, p+1, ... processors and a memory model
