@@ -109,8 +109,35 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 
 [GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e): A forensic look at how Huawei, ByteDance, Tencent, Alibaba, Baidu, iFLYTEK, Cambricon, Biren, Moore Threads, SenseTime, Megvii, Horizon Robotics, Zhipu AI, 4Paradigm, and MiniMax are restructuring AI infrastructure and strategy to thrive on sovereign GPUs and redefine the future of AI.
 
+> This is a forensic deep-dive into the collapse of Nvidia’s dominance in China and the rise of a fully sovereign AI hardware-software stack that is now being exported globally. Washington’s sanctions, intended to cripple China’s AI ambitions, instead forced the world’s largest AI market to accelerate domestic innovation, flipping dependency into deterrence in less than two years. The result: Chinese players like Huawei, ByteDance, Tencent, Alibaba, Baidu, and a new generation of hardware startups have restructured their entire AI infrastructure around sovereign GPUs, breaking the U.S. chokehold on advanced compute.
 
-> No, Digital Sovereignty Doesn’t Mean You’re Anti-America or Pro-China: It’s Anti-Dependence...
+## Take-home: Digital Sovereignty is Anti-Dependence
+
+<a href="https://web.archive.org/web/20250824131935im_/https://media.licdn.com/dms/image/v2/D5612AQFp-kUPefegHA/article-cover_image-shrink_720_1280/B56ZcVk2jYHgAU-/0/1748413680122?e=2147483647&v=beta&t=1nEQ546IRXX6kfxdPuqh7YpCzbikp1I8SJldFEH1FSA"><img src="./images/digsovisantidep.png" width="600" align="middle" alt="Digital Sovereignty means Anti-Dependence"></a>
+
+READ: [No, Digital Sovereignty Doesn’t Mean You’re Anti-America or Pro-China: It’s Anti-Dependence](https://web.archive.org/web/20250824131935/https://www.linkedin.com/pulse/digital-sovereignty-doesnt-mean-youre-anti-america-its-dion-wiggins-tpoec?trk=article-ssr-frontend-pulse_little-text-block)
+
+> Talking about digital sovereignty shouldn’t make you look like a traitor. But today, it does.
+>
+>    Say you want alternatives to U.S. tech? You’re accused of being anti-American.
+>    Mention China’s progress in AI? You’re branded pro-authoritarian.
+>    Advocate for local infrastructure? Now you’re undermining allies.
+>
+> This framing is toxic. And it’s designed to shut down the one conversation that actually matters:
+>
+> Who owns your nations or organization's digital future?
+>
+> This article dismantles the trap we’ve all been forced into.
+>
+> We need to be able to talk openly—about the risks, the challenges, and the benefits of digital sovereignty—without being labeled anti-American, pro-China, or anything else.
+>
+> This article dismantles the trap we’ve all been forced into. 
+>
+> Because digital sovereignty isn’t about picking sides. It’s about having the right to choose your own system—without permission, without gatekeepers, and without apology.
+>
+
+Let us actually peruse through this article by Dion Wiggins now!
+
 
 
 ## Deep Dive Yourself
