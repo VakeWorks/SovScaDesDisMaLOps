@@ -103,6 +103,16 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 > 
 > As Frank Karlitschek, CEO of Germany-based Nextcloud, told us in March: "The Cloud Act grants US authorities access to cloud data hosted by US companies. It does not matter if that data is located in the US, Europe, or anywhere else."
 
+## GPU Sovereignty in China
+
+<a href="https://web.archive.org/web/20250823203803im_/https://media.licdn.com/dms/image/v2/D4E12AQHU1fYAnYD-yQ/article-cover_image-shrink_720_1280/B4EZjC7D0GGwAY-/0/1755616928675?e=2147483647&v=beta&t=9MysdE1ixwCtirV7v2VJodbnELjmYEHaNt3oSwgDL-E"><img src="./images/gpusovshift.png" width="600" align="middle" alt="GPU Sovereignty Shift"></a>
+
+[GPU Sovereignty Shift: How China’s “Big AI” Are Powering AI Without Nvidia](https://web.archive.org/web/20250820034717/https://www.linkedin.com/pulse/gpu-sovereignty-shift-how-chinas-big-ai-powering-without-dion-wiggins-o8s9e): A forensic look at how Huawei, ByteDance, Tencent, Alibaba, Baidu, iFLYTEK, Cambricon, Biren, Moore Threads, SenseTime, Megvii, Horizon Robotics, Zhipu AI, 4Paradigm, and MiniMax are restructuring AI infrastructure and strategy to thrive on sovereign GPUs and redefine the future of AI.
+
+
+> No, Digital Sovereignty Doesn’t Mean You’re Anti-America or Pro-China: It’s Anti-Dependence...
+
+
 ## Deep Dive Yourself
 
 - [The Tech Coup: How to Save Democracy from Silicon Valley](https://youtu.be/D0Aqx1fhuxg?si=N3kvsSVyIBJVi7lM) -1.5h
