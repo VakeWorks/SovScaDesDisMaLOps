@@ -133,8 +133,6 @@ Read [Permanent Record by Edward Snowden, 2019-09-17](https://en.wikipedia.org/w
 >
 > We need to be able to talk openly—about the risks, the challenges, and the benefits of digital sovereignty—without being labeled anti-American, pro-China, or anything else.
 >
-> This article dismantles the trap we’ve all been forced into. 
->
 > Because digital sovereignty isn’t about picking sides. It’s about having the right to choose your own system—without permission, without gatekeepers, and without apology.
 >
 
@@ -144,7 +142,8 @@ Let us actually peruse through [this article](https://web.archive.org/web/202508
 
 ## Deep Dive Yourself
 
-- [The Tech Coup: How to Save Democracy from Silicon Valley](https://youtu.be/D0Aqx1fhuxg?si=N3kvsSVyIBJVi7lM) -1.5h
+- [Rewiring Democracy: Exposing the Tech Coup with Marietje Schaake](https://youtu.be/4tHBuARi7Pk?si=4wRoZpcIFQjq_5gZ) ~1h
+  - [The Tech Coup: How to Save Democracy from Silicon Valley](https://youtu.be/D0Aqx1fhuxg?si=N3kvsSVyIBJVi7lM) ~1.5h
   - Read: [Beware America’s AI colonialism 2025-08-20](https://web.archive.org/web/20250824095017/https://www.ft.com/content/80bc0d67-faaf-4373-ad18-db15da721054?accessToken=zwAGPRoxarYokdOAvA1n-q9Dc9OtGNsV2nIQVA.MEUCIQCzQh9wSm1RE_eGFY5jp8HpcIdpM5ZXIFY-HluaySoYHgIgeX4i0nP534xyjXteKI6zfaGXd0Z0FGigeTFsUZiagII&sharetype=gift&token=393085fb-e070-4f14-a283-be4db441dba6);  
   - Read (optional): [The Tech Coup](https://thetechcoup.com/) 
 - [Why Countries Must Fight For Digital Sovereignty, 2025-08-21](https://techwontsave.us/episode/290_why_countries_must_fight_for_digital_sovereignty_w_cecilia_rikap) -1h
