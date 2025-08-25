@@ -18,16 +18,16 @@ A [computer](https://en.wikipedia.org/wiki/Computer#Digital_computers) is a type
 
 Models are useful to analyse machines, including their architecture, performance, property and behaviour.
 
-## Computer Architecture 
+## Computer Architecture <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/680px-Von_Neumann_Architecture.svg.png"  width="200" align="right" alt="Von Neumann architecture">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/680px-Von_Neumann_Architecture.svg.png"  width="300" align="right" alt="Von Neumann architecture">
-
-> [von Neumann Architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture) gives the model of a computer with a central processing unit (CPU), memory unit and I/O devices (right)
->
-> A [computer architecture](https://en.wikipedia.org/wiki/Computer_architecture) is the structure of a computer system made from component parts. It can sometimes be a high-level description that ignores details of the implementation.
-
+- [von Neumann Architecture](https://en.wikipedia.org/wiki/Von_Neumann_architecture) gives the model of a computer with a central processing unit (CPU), memory unit and I/O devices (right)
 
 <iframe src="https://en.wikipedia.org/wiki/Computer_architecture" height="500" width="100%" title="Computer Architecture"></iframe> 
+
+<!--
+> A [computer architecture](https://en.wikipedia.org/wiki/Computer_architecture) is the structure of a computer system made from component parts. It can sometimes be a high-level description that ignores details of the implementation.
+-->
+
 
 ## Computer Hardware
 
@@ -77,17 +77,12 @@ Models are useful to analyse machines, including their architecture, performance
 
 > [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS) (HMOS) (Chinese: 鸿蒙; pinyin: Hóngméng; trans. "Vast Mist") is a [distributed operating system](https://en.wikipedia.org/wiki/Distributed_operating_system) developed by Huawei for smartphones, tablets, smart TVs, smart watches, personal computers and other smart devices. 
 
-## Intellectual Property, Copyright & Software License
+## IP, Copyright & License <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Software_Categories_expanded.svg/600px-Software_Categories_expanded.svg.png" width="200" align="right" alt="Software categories"> 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Software_Categories_expanded.svg/600px-Software_Categories_expanded.svg.png" width="200" align="right" alt="Software categories"> 
-
-> [Intellectual property (IP)](https://en.wikipedia.org/wiki/Intellectual_property) is a category of [property](https://en.wikipedia.org/wiki/Property) that includes intangible creations of the human intellect.
->
-> A [copyright](https://en.wikipedia.org/wiki/Copyright) is a type of intellectual property that gives its owner the exclusive legal right to copy, distribute, adapt, display, and perform a creative work, usually for a limited time.
->
-> [Software copyright](https://en.wikipedia.org/wiki/Software_copyright) is the application of [copyright](https://en.wikipedia.org/wiki/Copyright) in [law](https://en.wikipedia.org/wiki/Law) to [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_medium) [software](https://en.wikipedia.org/wiki/Software).
->
-> A software license is a legal instrument governing the use or redistribution of software. 
+- [Intellectual property (IP)](https://en.wikipedia.org/wiki/Intellectual_property) is a category of [property](https://en.wikipedia.org/wiki/Property) that includes intangible creations of the human intellect.
+- A [copyright](https://en.wikipedia.org/wiki/Copyright) is a type of intellectual property that gives its owner the exclusive legal right to copy, distribute, adapt, display, and perform a creative work, usually for a limited time.
+- [Software copyright](https://en.wikipedia.org/wiki/Software_copyright) is the application of [copyright](https://en.wikipedia.org/wiki/Copyright) in [law](https://en.wikipedia.org/wiki/Law) to [machine-readable](https://en.wikipedia.org/wiki/Machine-readable_medium) [software](https://en.wikipedia.org/wiki/Software).
+- A software license is a legal instrument governing the use or redistribution of software. 
 
 <iframe src="https://en.wikipedia.org/wiki/Software_license"  height="500" width="100%" title="Proprietary software"></iframe>
 
@@ -104,7 +99,7 @@ Models are useful to analyse machines, including their architecture, performance
 > Linux (/ˈlɪnʊks/ LIN-uuks) is a family of [open source](https://en.wikipedia.org/wiki/Open_source) [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), an [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) first released on September 17, 1991, by [Linus Benedict Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux is typically [packaged](https://en.wikipedia.org/wiki/Package_manager) as a [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution) (distro), which includes the kernel and supporting [system software](https://en.wikipedia.org/wiki/System_software) and [libraries](https://en.wikipedia.org/wiki/Library_(computing))—most of which are provided by third parties—to create a complete operating system, designed as a clone of [Unix](https://en.wikipedia.org/wiki/Unix) and released under the [copyleft](https://en.wikipedia.org/wiki/Copyleft) [GPL](https://en.wikipedia.org/wiki/GPL) license.
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/GPLv3_Logo.svg" width="100" align="right" alt="OS"></a>
 
-There are many Linux distros but we will use [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) and [Alpine Linux](https://en.wikipedia.org/wiki/Alpine_Linux) in [docker](https://en.wikipedia.org/wiki/Docker_(software)) [containers](https://en.wikipedia.org/wiki/Operating-system-level_virtualization).
+We will use [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) and [Alpine Linux](https://en.wikipedia.org/wiki/Alpine_Linux) distros in [docker](https://en.wikipedia.org/wiki/Docker_(software)) [containers](https://en.wikipedia.org/wiki/Operating-system-level_virtualization).
 
 ## Dive Deeper: Linux 
 
@@ -127,15 +122,17 @@ There are many Linux distros but we will use [Ubuntu](https://en.wikipedia.org/w
 
 <iframe src="https://en.wikipedia.org/wiki/Cloud_computing" height="500" width="100%" title="Proprietary software"></iframe> 
 
-## Service Models and Service Agreements
+## Service Models 
 
 > 
 
 <iframe src="https://en.wikipedia.org/wiki/Cloud_computing#Service_models" height="500" width="100%" title="Proprietary software"></iframe> 
 
-## Cloud Computing Vendors & Vendor Lock-In
+## Cloud Computing Vendors 
 
 <iframe src="https://en.wikipedia.org/wiki/Cloud_computing#Cloud_Computing_Vendors" height="500" width="100%" title="Proprietary software"></iframe> 
+
+## Vendor Lock-In
 
 <iframe src="https://en.wikipedia.org/wiki/Vendor_lock-in" height="500" width="100%" title="Proprietary software"></iframe> 
 
