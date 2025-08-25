@@ -4,15 +4,21 @@
 
 > A [Machine](https://en.wiktionary.org/wiki/machine) is a [device](https://en.wiktionary.org/wiki/device) that directs and controls [energy](https://en.wiktionary.org/wiki/energy#English), often in the form of [movement](https://en.wiktionary.org/wiki/movement#English) or [electricity](https://en.wiktionary.org/wiki/electricity#English), to produce a certain [effect](https://en.wiktionary.org/wiki/effect). 
 
-A computer is a type of machine and so is a robot, car, bicycle, drone or an autonomous system.
+A [computer](https://en.wikipedia.org/wiki/Computer#Digital_computers) is a type of machine and so is a robot, car, bicycle, drone or an autonomous system.
+
+> A [computer](https://en.wikipedia.org/wiki/Computer) is a [machine](https://en.wikipedia.org/wiki/Machine) that can be [programmed](https://en.wikipedia.org/wiki/Computer_programming) to automatically carry out sequences of [arithmetic](https://en.wikipedia.org/wiki/Arithmetic) or [logical operations](https://en.wikipedia.org/wiki/Logical_operations) ([computation](https://en.wikipedia.org/wiki/Computation)). 
+> Modern [digital electronic](https://en.wikipedia.org/wiki/Digital_electronic) computers can perform generic sets of operations known as [programs](https://en.wikipedia.org/wiki/Computer_program), which enable computers to perform a wide range of tasks.
+> A computer system
+> - includes the [hardware](https://en.wikipedia.org/wiki/Computer_hardware), [operating system](https://en.wikipedia.org/wiki/Operating_system), [software](https://en.wikipedia.org/wiki/Software), and [peripheral](https://en.wikipedia.org/wiki/Peripheral) equipment needed and used for full operation; 
+>  - or to a group of computers that are linked and function together, such as a [computer network](https://en.wikipedia.org/wiki/Computer_network) or [computer cluster](https://en.wikipedia.org/wiki/Computer_cluster), 
+>    - whose newest manifestation is [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing). 
+>      - Cloud computing is "a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand," according to [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization).
 
 > An [Abstract Model](https://en.wiktionary.org/wiki/abstract_model#English) or merely [Model](https://en.wiktionary.org/wiki/model#English) is a [representation](https://en.wiktionary.org/wiki/representation) of a physical object that contains an [abstraction](https://en.wiktionary.org/wiki/abstraction#English) of [reality](https://en.wiktionary.org/wiki/reality#English).
 
 Models are useful to analyse machines, including their architecture, performance, property and behaviour.
 
 ## Computer Architecture 
-
-
 
 > a computer architecture is the structure of a computer system made from component parts. It can sometimes be a high-level description that ignores details of the implementation.
 
@@ -31,7 +37,11 @@ von Neumann Architecture
 
 ## Graphics Processing Unit
 
+## Cloud Computing
 
+- Service Models
+- Identity and Access management
+- ...
 
 
 ## Anatomy of AI
