@@ -137,6 +137,8 @@ compose-build:
 	docker compose run --rm mdbook build && \
 	docker compose run --rm --entrypoint sh mdbook -c 'mdbook-admonish install' && \
 	docker compose run --rm --entrypoint sh mdbook -c 'rm -rf ./slides' && \
+	docker compose run --rm --entrypoint sh mdbook -c 'mkdir -p ./slides' && \
+	docker compose run --rm --entrypoint sh mdbook -c 'cp ./mdbook-admonish.css ./favicon.ico ./slides' && \
 	docker compose run --rm --entrypoint sh mdbook -c 'mdslides --template ./template.html --output-dir ./slides --mdbook-path . --index-template ./index-template.html' && \
 	docker compose run --rm --entrypoint sh mdbook -c 'cp -r ./src/images ./slides/' && \
 	cd "${CURRENT_WORKING_DIR}"
