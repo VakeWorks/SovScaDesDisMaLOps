@@ -9,14 +9,11 @@ Models are useful to analyse machines, including their architecture, performance
 
 ## Abstract Machine Models  <img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction">
 
-- efficiency of an algorithm is analysed using an abstract model of computation or an *abstract machine model (AMM)*
+- Efficiency of an algorithm is analysed using an abstract model of computation or an *abstract machine model (AMM)*
 - Such a model allows the designer of an algorithm to ignore many hardware details of the machine on which the algorithm will be run, 
    - while retaining enough details to characterize the efficiency of the algorithm, 
       - in terms of taking less time to complete successfully or 
-      - requiring minimal resources such as number of processors or computers. 
-- We will see two main models of computation: 
-  - *sequential random-access machine (SRAM) model* 
-  - *parallel random-access machine (PRAM) model* 
+      - requiring less resources, eg., number of processors or computers. 
 
 <iframe src="https://en.wikipedia.org/wiki/Abstract_machine" height="500" width="100%" title="Abstract Machine Model"></iframe> 
 
@@ -70,7 +67,7 @@ We will use Ray to implement algorithms developed with the distributed work-dept
 
 <a href="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vHz3troEmr4uLns0V8VmdA.jpeg"><img src="./images/DepGraphAdd1to8_RobertNishihara.webp" align="middle" width="500"></a>
 
-```%python
+```python
 # Slow approach.
 values = [1, 2, 3, 4, 5, 6, 7, 8]
 while len(values) > 1:
