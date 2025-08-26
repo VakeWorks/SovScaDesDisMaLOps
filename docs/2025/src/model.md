@@ -63,23 +63,22 @@ In addition to time and space, for p processor and memory units, we also need to
 
 ## Implementation in Ray 
 
-We will use Ray to implement algorithms developed with the distributed work-depth model.
+We will use Ray to implement algorithms developed with the DPRAM model.
 
 <a href="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vHz3troEmr4uLns0V8VmdA.jpeg"><img src="./images/DepGraphAdd1to8_RobertNishihara.webp" align="middle" width="500"></a>
 
-```python
-# Slow approach.
+```python []
+ # Slow approach.
 values = [1, 2, 3, 4, 5, 6, 7, 8]
 while len(values) > 1:
     values = [add.remote(values[0], values[1])] + values[2:]
 result = ray.get(values[0])
 
 
-# Fast approach.
+ # Fast approach.
 values = [1, 2, 3, 4, 5, 6, 7, 8]
 while len(values) > 1:
     values = values[2:] + [add.remote(values[0], values[1])]
 result = ray.get(values[0])
 ```
-
 [Modern Parallel and Distributed Python: A Quick Tutorial on Ray by Robert Nishihara](https://medium.com/data-science/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8)
