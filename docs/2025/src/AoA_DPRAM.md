@@ -1,20 +1,23 @@
 # Analysis of Algorithms & Operations
 
+Putting it all together...
+
+## DPRAMJAM, a Math+Law Model
+
 **DPRAMJAM := Distributed Parallel Random Access Machine Jurisdiction-Aware Model**
 
-**[1 hour]** 
 
-- **Abstract Machine Model (AMM)**
+- **Asymptotic analysis of efficiency of algorithms** under different AMMs
+  - Abstract Machine Model (AMM)
   - SRAM: Sequential Random Access Machine Model (older computers)
   - PRAM: Parallel Random Access Machine Model (laptops and smart phones) 
   - DPRAM: Distributed Parallel Random Access Machine Model (cluster of computers or cloud)
-- *Asymptotic analysis of efficiency of algorithms* under different AMMs
   - SRAM PRAM and DPRAM models with 1, 2, ..., p, p+1, ... processors and a memory model
   - Work-Depth Model and Brent's Theorem
   - Example + : Addition of n numbers in SRAM, PRAM and DPRAM models 
     - we will revisit this example implemented using ray.io in a memory model
   - Fastest Sorting Algorithm in DPRAM model = d distributed PRAM models 
-- *Legal analysis of sovereignty of operations* under **Jurisdiction-Aware Model (JAM)** extend AMMs beyond *analysis of algorithms*
+- **Legal analysis of sovereignty of operations** under **Jurisdiction-Aware Model (JAM)** extend AMMs beyond *analysis of algorithms*
   - JAM-local-Sverige is our default model when we work in Sweden (Sverige) with sovereign infrasturcture in Sweden
     - Example: own laptops (default for this workshop), workstations, or own on-premise clouds (NuC cluster) under sovereignty of Sverige
   - many clouds in a sky: "sky computing" means your service is agnostic to a set of clouds    - Example: [databricks](https://databricks.com) offers sky computing across some clouds: AWS, GCP and Azure 
