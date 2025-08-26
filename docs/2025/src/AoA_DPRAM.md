@@ -2,7 +2,7 @@
 
 Putting it all together...
 
-## DPRAMJAM, a Math+Law Model
+## DPRAMJAM: Math+Law
 
 **DPRAMJAM := Distributed Parallel Random Access Machine Jurisdiction-Aware Model**
 

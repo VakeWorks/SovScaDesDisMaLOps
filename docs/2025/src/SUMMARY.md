@@ -24,6 +24,7 @@
 
 # Practical Modules 
 
+* [Practical Overview](overviewPracticals.md)
 * [Command-Line Interface](./cli.md)
 * [Git](./git.md)
 * [Docker](./docker.md)

@@ -18,7 +18,7 @@ render_mode = "strip"
 
 [mdslides]
 command = "mdslides"
-skip_slides = ["how-cheatsheets-work.md", "cpp-cheatsheet.md"]
+skip_slides = ["cli.md", "git.md", "docker.md", "ray.md", "sovops.md", "docker-ray-dev.md" ]
 
 [output.html]
 additional-css = ["./mdbook-admonish.css"]
