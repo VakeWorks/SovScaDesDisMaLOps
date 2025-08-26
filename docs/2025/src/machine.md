@@ -1,4 +1,4 @@
-# Machines and Models
+# Machines 
 
 ## Definitions in English
 
@@ -13,10 +13,6 @@ A [computer](https://en.wikipedia.org/wiki/Computer#Digital_computers) is a type
 >  - or to a group of computers that are linked and function together, such as a [computer network](https://en.wikipedia.org/wiki/Computer_network) or [computer cluster](https://en.wikipedia.org/wiki/Computer_cluster), 
 >    - whose newest manifestation is [cloud computing](https://en.wikipedia.org/wiki/Cloud_computing). 
 >      - Cloud computing is "a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand," according to [ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization).
-
-> An [Abstract Model](https://en.wiktionary.org/wiki/abstract_model#English) or merely [Model](https://en.wiktionary.org/wiki/model#English) is a [representation](https://en.wiktionary.org/wiki/representation) of a physical object that contains an [abstraction](https://en.wiktionary.org/wiki/abstraction#English) of [reality](https://en.wiktionary.org/wiki/reality#English).
-
-Models are useful to analyse machines, including their architecture, performance, property and behaviour.
 
 ## Computer Architecture <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/680px-Von_Neumann_Architecture.svg.png"  width="200" align="right" alt="Von Neumann architecture">
 
@@ -86,12 +82,6 @@ Models are useful to analyse machines, including their architecture, performance
 
 <iframe src="https://en.wikipedia.org/wiki/Software_license"  height="500" width="100%" title="Proprietary software"></iframe>
 
-
-
-<!--
-<iframe src="https://en.wikipedia.org/wiki/" height="500" width="100%" title="Proprietary software"></iframe> 
--->
-
 ## Linux, GPL and Distros
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"  width="50" align="left" alt="OS"></a>
@@ -146,13 +136,3 @@ We will use [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) and [Alpine Linux](ht
 ## Exercise 
 
 - Deep Dive into Amazon Echo by reading [https://anatomyof.ai/](https://anatomyof.ai/) ~1h
-
-# Abstract Machine Models  <img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction">
-
-## SRAM
-
-## PRAM
-
-## DPRAM
-
-

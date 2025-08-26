@@ -22,6 +22,7 @@ skip_slides = ["how-cheatsheets-work.md", "cpp-cheatsheet.md"]
 
 [output.html]
 additional-css = ["./mdbook-admonish.css"]
+mathjax-support = true
 
 [preprocessor.graphviz]
 command = "mdbook-graphviz"
