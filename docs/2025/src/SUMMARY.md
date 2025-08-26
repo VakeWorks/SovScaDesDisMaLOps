@@ -30,12 +30,10 @@
 * [Docker](./docker.md)
 * [Ray](./ray.md)
 * [Sovereign Operations](sovops.md)
+* [Docker Builds](./docker-ray-dev.md)
 
 <!---
 --->
- # Deeper Dives
-
-* [Docker Builds](./docker-ray-dev.md)
 
 <!--
 
