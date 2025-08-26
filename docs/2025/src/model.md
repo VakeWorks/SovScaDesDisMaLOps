@@ -22,7 +22,7 @@ Models are useful to analyse machines, including their architecture, performance
 -->
 
 
-## Sequential Random Access Machine Model
+## Sequential Random Access Machine 
 
 The SRAM model is abstracted to consist of:
 - a single processor, \\(P_1\\), attached to a memory module, \\(M_1\\), 
@@ -32,7 +32,7 @@ The SRAM model is abstracted to consist of:
 
 <iframe src="https://en.wikipedia.org/wiki/Random-access_machine" height="500" width="100%" title="Random Access Machine Model"></iframe> 
 
-## Parallel Random Access Machine Model
+## Parallel Random Access Machine 
 
 PRAM is the abstract machine model for computers and smart phones with \\(p\\) multi-core processors for instance.
 
@@ -56,16 +56,16 @@ Let us go through the notes to understand Brent's Theorem carefully.
 
 ## Distributed Parallel Random Access Machine Model
 
-DPRAM and its more abstract Distributed Work-Depth Model is the abstract machine model used to analyse computations done by a cluster of computers as well as computation in the cloud.
-
-In addition to time and space, for p processor and memory units, we also need to analyse the cost of communication between \\(c\\) PRAM computers in our cluster. The 6hp WASP PhD course *Scalable Data Science and Distributed Machine Learning* will cover these topics in detail in 2026 Fall.
+- DPRAM and its more abstract Distributed Work-Depth Model is the abstract machine model used to analyse computations done by a cluster of computers as well as computation in the cloud.
+- In addition to time and space, for p processor and memory units, we also need to analyse the cost of communication between \\(c\\) PRAM computers in our cluster. 
+- The 6hp WASP PhD course *Scalable Data Science and Distributed Machine Learning* will cover these topics in detail in 2026 Fall.
 
 
 ## Implementation in Ray 
 
-We will use Ray to implement algorithms developed with the DPRAM model.
-
 <a href="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vHz3troEmr4uLns0V8VmdA.jpeg"><img src="./images/DepGraphAdd1to8_RobertNishihara.webp" align="middle" width="500"></a>
+
+We will use Ray to implement algorithms under DPRAM model.
 
 ```python []
  # Slow approach.
@@ -81,4 +81,5 @@ while len(values) > 1:
     values = values[2:] + [add.remote(values[0], values[1])]
 result = ray.get(values[0])
 ```
+
 [Modern Parallel and Distributed Python: A Quick Tutorial on Ray by Robert Nishihara](https://medium.com/data-science/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8)
