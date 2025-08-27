@@ -7,10 +7,6 @@
 * [Definition](./definition.md)
 * [Overview](./overview.md)
 
-# Preparation
-
-* [Preparation](./preparation.md)
-
 # Theoretical Modules
 
 * [Laws of Capitalism](./lawsOfCapitalism.md)
@@ -25,9 +21,10 @@
 # Practical Modules 
 
 * [Practical Overview](overviewPracticals.md)
+* [Preparation](./preparation.md)
 * [Command-Line Interface](./cli.md)
-* [Git](./git.md)
 * [Docker](./docker.md)
+* [Git](./git.md)
 * [Ray](./ray.md)
 * [Sovereign Operations](sovops.md)
 * [Docker Builds](./docker-ray-dev.md)

@@ -34,4 +34,21 @@
         - Visit <http://localhost:8080> in your browser to access this container and see a welcome message.
         - Identify and Stop the running `welcome-to-docker` container.
 
+# Prepare for Workshop
+
+## Workshop docker images
+
+- We will use the workshop's latest docker images built for the two main processor architectures.
+- You can simply pull these docker images as follows:
+  - For most modern mac laptops with silicon M1/M2/etc. on ARM 64 bit processors:
+      ```sh
+      docker pull vakeworks/sovscadesdismalops:dev-arm64
+      ```
+  - For most windows, linux and older mac laptops with INTEL x86/amd 64 bit processors:
+      ```sh
+      docker pull vakeworks/sovscadesdismalops:dev-amd64
+      ```
+- You should be able to open terminal inside a running docker container
 - [OPTIONAL] You can checkout [command-line](./cli.md) and [docker](./docker.md) pages we will be going through.
+- Advanced Exercise: You can build these docker images from scratch on your own by following [Docker Ray Dev](./docker-ray-dev.md).
+
