@@ -140,3 +140,11 @@ gentle_walkthrough.ipynb
 labs/scalingpythonml:
 README.md
 ```
+
+To check out a fresh and latest copy on August 29 2025 after lunch for the labs you can delete the older labs according to commands in the Warning and repeat the above steps again. It is best to wait to do the Set Up together as the notebooks are being prepared and tested. 
+
+```admonish warning
+cd /home/ray/workshop/
+
+rm -rf /home/ray/workshop/SovScaDesDisMaLOps 
+```
