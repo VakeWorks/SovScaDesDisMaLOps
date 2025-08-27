@@ -22,6 +22,7 @@
 
 * [Practical Overview](overviewPracticals.md)
 * [Preparation](./preparation.md)
+* [Set Up](./setup.md)
 * [Command-Line Interface](./cli.md)
 * [Docker](./docker.md)
 * [Git](./git.md)
