@@ -79,9 +79,64 @@ This should show the following output:
   ```
     - This will show (unless you mounted a directory with files and folders already in it):
       > (base) ray@12dfbd942909:~$
-- Now let us change directory into `workshop` and use git to download some notebooks for the workshop:
+ 
+## Obtain lab materials
 
-  ```sh
-  cd workshop
-  ```
+Now let us change directory into `workshop` and use git to download some notebooks for the workshop:
 
+```sh
+cd workshop
+```
+
+```sh
+git clone --no-checkout --depth=1 --filter=tree:0 https://github.com/VakeWorks/SovScaDesDisMaLOps.git 
+```
+
+```
+cd SovScaDesDisMaLOps/
+```
+
+```
+git sparse-checkout set --no-cone /labs
+```
+
+```
+git checkout
+```
+
+Now you can use the following commands to see where you are and what has been downloaded with git:
+ - `pwd` and `ls -R labs`
+
+It will look something like this with the respective LICENSEs:
+
+```admonish note
+(base) ray@12dfbd942909:/home/ray/workshop/SovScaDesDisMaLOps$ pwd
+/home/ray/workshop/SovScaDesDisMaLOps
+(base) ray@12dfbd942909:/home/ray/workshop/SovScaDesDisMaLOps$ ls -R labs/
+labs/:
+learning_ray  ray  scalingpythonml
+
+labs/learning_ray:
+README.md  notebooks
+
+labs/learning_ray/notebooks:
+ch_02_ray_core.ipynb
+
+labs/ray:
+LICENSE  README.md  doc
+
+labs/ray/doc:
+source
+
+labs/ray/doc/source:
+ray-core
+
+labs/ray/doc/source/ray-core:
+examples
+
+labs/ray/doc/source/ray-core/examples:
+gentle_walkthrough.ipynb
+
+labs/scalingpythonml:
+README.md
+```
