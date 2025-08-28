@@ -222,3 +222,12 @@ This should output: `copy and paste one of these URLs:`
 
 Open the URL `http://127.0.0.1:8888/lab?token=....` with a long token of your own. Try `http://localhost:8888/lab?token=....` if the local IP address doesn't work.
  
+## Jupyter `.ipynb` Notebooks in labs/
+
+Let us go through the jupyter `.ipynb` notebooks in `labs` directory of the docker container next:
+
+- Overview of ray core with examples at:
+  - `labs/ray/doc/source/ray-core/examples/gentle_walkthrough.ipynb`
+- You Try a more detailed version on your own
+  - `labs/learning_ray/notebooks/ch_02_ray_core.ipynb`
+- Dive deeeper  
