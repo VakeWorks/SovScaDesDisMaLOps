@@ -120,7 +120,7 @@ labs/:
 learning_ray  my_script.py  ray  scalingpythonml
 
 labs/learning_ray:
-LICENSE  notebooks  README.md
+LICENSE  README.md  notebooks
 
 labs/learning_ray/notebooks:
 ch_01_overview.ipynb  ch_02_ray_core.ipynb  ch_03_core_app.ipynb  images
@@ -129,8 +129,8 @@ labs/learning_ray/notebooks/images:
 chapter_01  chapter_02  chapter_03
 
 labs/learning_ray/notebooks/images/chapter_01:
-AIR.png       ds_workflow.png  ray_layers_old.png  simple_cluster.png
-cartpole.png  Ecosystem.png    ray_layers.png
+AIR.png        cartpole.png     ray_layers.png      simple_cluster.png
+Ecosystem.png  ds_workflow.png  ray_layers_old.png
 
 labs/learning_ray/notebooks/images/chapter_02:
 architecture.png  map_reduce.png  task_dependency.png  worker_node.png
@@ -139,7 +139,7 @@ labs/learning_ray/notebooks/images/chapter_03:
 train_policy.png
 
 labs/ray:
-doc  LICENSE  README.md
+LICENSE  README.md  doc
 
 labs/ray/doc:
 source
@@ -151,7 +151,7 @@ labs/ray/doc/source/ray-core:
 examples
 
 labs/ray/doc/source/ray-core/examples:
-gentle_walkthrough.ipynb  highly_parallel.ipynb  images
+gentle_walkthrough.ipynb  images
 
 labs/ray/doc/source/ray-core/examples/images:
 task_dependency.png
