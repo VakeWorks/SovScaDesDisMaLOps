@@ -1,8 +1,10 @@
-# Setting Up Laptop
+# Set Up, Labs & Objectives
+
+## Set Up Laptop
 
 Let us set up our laptop for the practical modules. 
 
-## Starting Docker Container <!--<img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction"> -->
+### Starting Docker Container <!--<img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction"> -->
 
 - Make sure you are in a directory in the host machine that you want to work from as this directory will be mounted inside the docker container.
 - We will make a directory named `workshop` and launch docker container from there. 
@@ -43,7 +45,7 @@ If you are in your home directory or another in your laptop (host) then that dir
  
 - Also, try: `docker stop sovscadesdismalops`, `docker start sovscadesdismalops`, `docker kill sovscadesdismalops`,..., `docker rm <CONTAINER ID>` etc.
 
-## Get into the container
+### Get into the container
 
 We can get into the container and use git to download the latest notebooks for the workshop.
 
@@ -82,7 +84,7 @@ This should show the following output:
     - This will show (unless you mounted a directory with files and folders already in it):
       ```(base) ray@12dfbd942909:~$```
  
-## Obtain lab materials
+### Obtain lab materials
 
 Now let us change directory into `workshop` and use git to download some notebooks for the workshop:
 
@@ -169,7 +171,7 @@ cd /home/ray/workshop/
 rm -rf /home/ray/workshop/SovScaDesDisMaLOps 
 ```
 
-## Next Steps
+## Next Steps for Labs
 
 - Let us do a show of hands now to gauge the distribution of current experiences and skills
   - How many of you are (1) *already familiar*, (2) somewhat familiar, (3) not at all familiar with:
@@ -181,7 +183,7 @@ rm -rf /home/ray/workshop/SovScaDesDisMaLOps
     - Traingles are those who have more familiarity with at least two of the above four items.
     - Squares are those who have some familiarity with at least one the above four items.
     - Circles are those who least familiarity with most of the above four items.
-  - GOAL: When you do `You Trys` in the labs on your own own make sure you are in a group of 3-4 students with at least one Triangle or Square. Ideally, each group should not have only Circles.
+  - GOAL: When you do `YouTrys` in the labs on your own own make sure you are in a group of 3-4 students with at least one Triangle or Square. Ideally, each group should not have only Circles.
 - Operating System (OS) show of hands. How many of you have one of the following OSs?
     - Linux and other Unix-like operating systems?
     - Have Linux laptop?
@@ -191,4 +193,11 @@ rm -rf /home/ray/workshop/SovScaDesDisMaLOps
 - We will glance next over [Command-Line Interface](./cli.md), [Docker](./docker.md) and [Git](./git.md) to motivate and let those with less experience deep-dive later.
 - We will quickly demonstrate how to get our fingers on the keys and work on the labs by directly using the minimal required steps to get to our main destination that is [Ray](./ray.md), an open source project for parallel and distributed Python.
 - You are expected to use your laptops to follow along in real-time. 
-  - If you get stuck, don't worry as there will be exercises or *YouTrys* to get you try on your own.
+  - If you get stuck, don't worry as there will be exercises or *YouTrys* to get you try on your own in a small group with perhaps others who can help.
+    - Raaz and Alfred will be moving around the small groups during *YouTrys*.
+
+## Objective of the Labs and Bigger Picture
+
+- The objective of the labs is to help you take the first steps in this highly integrative field of sovereign scalable data engineering sciences and distributed machine learning operations. 
+- It is also to perhaps inspire you to consider taking the elective 6 hp WASP PhD course entirely with Raaz in a more focused and structured mathematical and coding setting over a whole semester in the Fall of 2026 titled [*Scalable Data Science and Distributed Machine Learning (ScaDaMaLe)*](https://lamastex.github.io/ScaDaMaLe/) where you will do group projects with others. 
+
