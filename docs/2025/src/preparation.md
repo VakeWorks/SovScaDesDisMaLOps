@@ -22,11 +22,12 @@
 ## Task 3: Check Docker Works
 
 - Check that your docker installation was successful
+    - If Docker Desktop is installed, make sure that it is launched and running. 
     - Open your CLI terminal and start a container by running the command:
         ```sh
         docker run hello-world
         ```
-        - You should receive a `Hello from Docker!` in the output.
+        - You should receive a `Hello from Docker!` in the output.          
     - Run `welcome-to-docker` as daemon mapping port 80 to 8080.
         ```sh
         docker run -d -p 8080:80 docker/welcome-to-docker
@@ -40,11 +41,11 @@
 
 - We will use the workshop's latest docker images built for the two main processor architectures.
 - You can simply pull these docker images as follows:
-  - For most modern mac laptops with silicon M1/M2/etc. on ARM 64 bit processors:
+  - For most modern Mac laptops with silicon M1/M2/etc. on ARM 64 bit processors:
       ```sh
       docker pull vakeworks/sovscadesdismalops:dev-arm64
       ```
-  - For most windows, linux and older mac laptops with INTEL x86/amd 64 bit processors:
+  - For most Windows, Linux and older Mac laptops with Intel x86/AMD 64 bit processors:
       ```sh
       docker pull vakeworks/sovscadesdismalops:dev-amd64
       ```
