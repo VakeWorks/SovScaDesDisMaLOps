@@ -23,15 +23,17 @@ We will do the following:
 ray start --head --dashboard-host 0.0.0.0
 ```
 
-```admonish warning
-WARNING: The object store is using /tmp instead of /dev/shm because /dev/shm has only 3221225472 bytes available. This will harm performance! You may be able to free up space by deleting files in /dev/shm. If you are inside a Docker container, you can increase /dev/shm size by passing '--shm-size=9.98gb' to 'docker run' (or add it to the run_options list in a Ray cluster config). Make sure to set this to more than 30% of available RAM.
+~~~admonish warning title="shm-size WARNING"
+```WARNING: The object store is using /tmp instead of /dev/shm because /dev/shm has only 3221225472 bytes available. This will harm performance! You may be able to free up space by deleting files in /dev/shm. If you are inside a Docker container, you can increase /dev/shm size by passing '--shm-size=9.98gb' to 'docker run' (or add it to the run_options list in a Ray cluster config). Make sure to set this to more than 30% of available RAM.```
 
 It might be best to get out of docker and restart it with the suggested '--shm-size=9.98gb' as we started with '--shm-size=3gb' to be conservative.
+~~~
+
+You should getting an output similar but no exactly the same as the following:
+
+~~~admonish note title="output"
+
 ```
-
-You should getting an output similar that in the Note no exactly the same.
-
-```admonish note
 --------------------
 Ray runtime started.
 --------------------
@@ -61,6 +63,7 @@ Next steps
   
   If connection to the dashboard fails, check your firewall settings and network configuration.
 ```
+~~~
 
 We should be able to find the dashboard for the ray cluster at `http://172.17.0.2:8265/` or `http://localhost:8265/`.
 
@@ -88,7 +91,8 @@ Let us make sure that we can pass this python script to the ray cluster and get 
 RAY_ADDRESS='http://172.17.0.2:8265' ray job submit --working-dir . -- python my_script.py
 ```
 
-```admonish note
+~~~admonish note title="output"
+```
 (base) ray@12dfbd942909:~/workshop/SovScaDesDisMaLOps/labs$ RAY_ADDRESS='http://172.17.0.2:8265' ray job submit --working-dir . -- python my_script.py
 
 Job submission server address: http://172.17.0.2:8265
@@ -121,6 +125,7 @@ Job 'raysubmit_dgEg6widN2VTcxuR' succeeded
 ------------------------------------------
 
 ```
+~~~
 
 Let us examine the status of the ray cluster we started using `ray status` command.
 
@@ -128,7 +133,8 @@ Let us examine the status of the ray cluster we started using `ray status` comma
 ray status
 ```
 
-```admonist note
+~~~admonist note title="output"
+```
 ======== Autoscaler status: 2025-08-27 10:24:51.593334 ========
 Node status
 ---------------------------------------------------------------
@@ -152,6 +158,7 @@ Total Demands:
  (no resource demands)
 
 ```
+~~~
 
 Let us now stop the ray cluster.
 
@@ -178,7 +185,8 @@ Next we can start jupyter lab inside our docker container with no running ray cl
 jupyter lab --ip 0.0.0.0 --no-browser --allow-root
 ```
 
-```admonish note
+~~~admonish note title="output"
+```
 $ jupyter lab --ip 0.0.0.0 --no-browser --allow-root
 [I 2025-08-27 10:32:24.139 ServerApp] jupyter_lsp | extension was successfully linked.
 [I 2025-08-27 10:32:24.153 ServerApp] jupyter_server_terminals | extension was successfully linked.
@@ -203,11 +211,13 @@ To access the server, open this file in a browser:
         file:///home/ray/.local/share/jupyter/runtime/jpserver-4116-open.html
 Or copy and paste one of these URLs:
 
-        http://12dfbd942909:8888/lab?token=64bc9471350814f6f13da0d250459236a8ceb36d11b31ad4
+http://12dfbd942909:8888/lab?token=64bc9471350814f6f13da0d250459236a8ceb36d11b31ad4
 
-        http://127.0.0.1:8888/lab?token=64bc9471350814f6f13da0d250459236a8ceb36d11b31ad4
+http://127.0.0.1:8888/lab?token=64bc9471350814f6f13da0d250459236a8ceb36d11b31ad4
 
 ```
+~~~
+
 This should output: `copy and paste one of these URLs:`
 
 Open the URL `http://127.0.0.1:8888/lab?token=....` with a long token of your own. Try `http://localhost:8888/lab?token=....` if the local IP address doesn't work.

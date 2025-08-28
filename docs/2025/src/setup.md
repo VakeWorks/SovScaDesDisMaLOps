@@ -37,8 +37,9 @@ If you are in your home directory or another in your laptop (host) then that dir
     ```
 - You should see something like this:
 
->    CONTAINER ID   IMAGE                                    COMMAND                  CREATED          STATUS          PORTS                                                                                                                                                                                    NAMES
-> 12dfbd942909   vakeworks/sovscadesdismalops:dev-amd64   "/bin/bash"              16 minutes ago   Up 16 minutes   0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp, 0.0.0.0:8265->8265/tcp, [::]:8265->8265/tcp, 0.0.0.0:8888->8888/tcp, [::]:8888->8888/tcp, 0.0.0.0:10001->10001/tcp, [::]:10001->10001/tcp   sovscadesdismalops
+    ```CONTAINER ID   IMAGE                                    COMMAND                  CREATED          STATUS          PORTS  NAMES```
+
+    ```12dfbd942909   vakeworks/sovscadesdismalops:dev-amd64   "/bin/bash"              16 minutes ago   Up 16 minutes   0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp, 0.0.0.0:8265->8265/tcp, [::]:8265->8265/tcp, 0.0.0.0:8888->8888/tcp, [::]:8888->8888/tcp, 0.0.0.0:10001->10001/tcp, [::]:10001->10001/tcp   sovscadesdismalops```
  
 - Also, try: `docker stop sovscadesdismalops`, `docker start sovscadesdismalops`, `docker kill sovscadesdismalops`,..., `docker rm <CONTAINER ID>` etc.
 
@@ -52,8 +53,7 @@ docker exec -i -t sovscadesdismalops /bin/bash
 
 This would get you into the sovscadesdismalops docker container. 
 
-
-> (base) ray@12dfbd942909:~$
+``` (base) ray@12dfbd942909:~$  ```
 
 Now, you can try the following commands inside the container.
 
@@ -64,21 +64,23 @@ This should show the following output:
   ```
   pwd
   ```
-    > (base) ray@12dfbd942909:~$ pwd
-    >
-    > /home/ray
+  ```(base) ray@12dfbd942909:~$ pwd```
+
+  ```/home/ray```
 
 - list the files and direcories using `ls` commands. 
   ```
   ls
   ```
-  > anaconda3  learn  pip-freeze.txt  requirements_compiled.txt  workshop
+  
+  ```anaconda3  learn  pip-freeze.txt  requirements_compiled.txt  workshop```
+
 - list the files and direcories in `workshop` directory
   ```
   ls workshop
   ```
     - This will show (unless you mounted a directory with files and folders already in it):
-      > (base) ray@12dfbd942909:~$
+      ```(base) ray@12dfbd942909:~$```
  
 ## Obtain lab materials
 
@@ -109,7 +111,8 @@ Now you can use the following commands to see where you are and what has been do
 
 It will look something like this with the respective LICENSEs:
 
-```admonish note
+~~~admonish note title="output"
+```
 (base) ray@12dfbd942909:/home/ray/workshop/SovScaDesDisMaLOps$ pwd
 /home/ray/workshop/SovScaDesDisMaLOps
 (base) ray@12dfbd942909:/home/ray/workshop/SovScaDesDisMaLOps$ ls -R labs/
@@ -140,6 +143,7 @@ gentle_walkthrough.ipynb
 labs/scalingpythonml:
 README.md
 ```
+~~~
 
 To check out a fresh and latest copy on August 29 2025 after lunch for the labs you can delete the older labs according to commands in the Warning and repeat the above steps again. It is best to wait to do the Set Up together as the notebooks are being prepared and tested. 
 
