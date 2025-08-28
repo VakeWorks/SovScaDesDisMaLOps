@@ -2,7 +2,7 @@
 
 Let us set up our laptop for the practical modules. 
 
-## Starting Docker Container <img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction">
+## Starting Docker Container <!--<img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction"> -->
 
 - Make sure you are in a directory in the host machine that you want to work from as this directory will be mounted inside the docker container.
 - We will make a directory named `workshop` and launch docker container from there. 
@@ -117,16 +117,29 @@ It will look something like this with the respective LICENSEs:
 /home/ray/workshop/SovScaDesDisMaLOps
 (base) ray@12dfbd942909:/home/ray/workshop/SovScaDesDisMaLOps$ ls -R labs/
 labs/:
-learning_ray  ray  scalingpythonml
+learning_ray  my_script.py  ray  scalingpythonml
 
 labs/learning_ray:
-README.md  notebooks
+LICENSE  notebooks  README.md
 
 labs/learning_ray/notebooks:
-ch_02_ray_core.ipynb
+ch_01_overview.ipynb  ch_02_ray_core.ipynb  ch_03_core_app.ipynb  images
+
+labs/learning_ray/notebooks/images:
+chapter_01  chapter_02  chapter_03
+
+labs/learning_ray/notebooks/images/chapter_01:
+AIR.png       ds_workflow.png  ray_layers_old.png  simple_cluster.png
+cartpole.png  Ecosystem.png    ray_layers.png
+
+labs/learning_ray/notebooks/images/chapter_02:
+architecture.png  map_reduce.png  task_dependency.png  worker_node.png
+
+labs/learning_ray/notebooks/images/chapter_03:
+train_policy.png
 
 labs/ray:
-LICENSE  README.md  doc
+doc  LICENSE  README.md
 
 labs/ray/doc:
 source
@@ -138,14 +151,17 @@ labs/ray/doc/source/ray-core:
 examples
 
 labs/ray/doc/source/ray-core/examples:
-gentle_walkthrough.ipynb
+gentle_walkthrough.ipynb  highly_parallel.ipynb  images
+
+labs/ray/doc/source/ray-core/examples/images:
+task_dependency.png
 
 labs/scalingpythonml:
 README.md
 ```
 ~~~
 
-To check out a fresh and latest copy on August 29 2025 after lunch for the labs you can delete the older labs according to commands in the Warning and repeat the above steps again. It is best to wait to do the Set Up together as the notebooks are being prepared and tested. 
+To check out a fresh and latest copy on August 29 2025 after lunch for the labs you can delete the older labs according to commands in the Warning and repeat the above steps in [Obtain lab materials](#obtain-lab-materials). It is best to wait to do the Set Up together as the notebooks are being prepared and tested. Otherwise you can `git pull` and resolve conflicts if any.
 
 ```admonish warning
 cd /home/ray/workshop/
