@@ -168,3 +168,27 @@ cd /home/ray/workshop/
 
 rm -rf /home/ray/workshop/SovScaDesDisMaLOps 
 ```
+
+## Next Steps
+
+- Let us do a show of hands now to gauge the distribution of current experiences and skills
+  - How many of you are (1) *already familiar*, (2) somewhat familiar, (3) not at all familiar with:
+    - command-line interface to interact with machines?
+    - git for distributed version control?
+    - docker containers?
+    - ray?
+  - let us assign a *triangle*, a *square* or a *circle* to each of you based on your responses.
+    - Traingles are those who have more familiarity with at least two of the above four items.
+    - Squares are those who have some familiarity with at least one the above four items.
+    - Circles are those who least familiarity with most of the above four items.
+  - GOAL: When you do `You Trys` in the labs on your own own make sure you are in a group of 3-4 students with at least one Triangle or Square. Ideally, each group should not have only Circles.
+- Operating System (OS) show of hands. How many of you have one of the following OSs?
+    - Linux and other Unix-like operating systems?
+    - Have Linux laptop?
+    - Have Windows laptop?
+    - Have Mac laptop?
+    - Have Harmony OS laptop?
+- We will glance next over [Command-Line Interface](./cli.md), [Docker](./docker.md) and [Git](./git.md) to motivate and let those with less experience deep-dive later.
+- We will quickly demonstrate how to get our fingers on the keys and work on the labs by directly using the minimal required steps to get to our main destination that is [Ray](./ray.md), an open source project for parallel and distributed Python.
+- You are expected to use your laptops to follow along in real-time. 
+  - If you get stuck, don't worry as there will be exercises or *YouTrys* to get you try on your own.
