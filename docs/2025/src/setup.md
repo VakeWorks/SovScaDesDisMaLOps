@@ -169,7 +169,7 @@ README.md
 ```
 ~~~
 
-To check out a fresh and latest copy on August 29 2025 after lunch for the labs you can delete the older labs according to commands in the Warning and repeat the above steps in [Obtain lab materials](#obtain-lab-materials). It is best to wait to do the Set Up together as the notebooks are being prepared and tested. Otherwise you can `git pull` and resolve conflicts if any.
+To check out a fresh and latest copy on August 29 2025 after lunch for the labs you can delete the older labs according to commands in the Warning and repeat the above steps in [Obtain lab materials](#obtain-lab-materials). It is best to wait to do the Set Up together as the notebooks are being prepared and tested. Otherwise you can use `git` and resolve conflicts if any.
 
 ```admonish warning
 cd /home/ray/workshop/
