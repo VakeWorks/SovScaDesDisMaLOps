@@ -65,7 +65,8 @@ Let us go through the notes to understand Brent's Theorem carefully.
 
 <a href="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vHz3troEmr4uLns0V8VmdA.jpeg"><img src="./images/DepGraphAdd1to8_RobertNishihara.webp" align="middle" width="500"></a>
 
-We will use Ray to implement algorithms under DPRAM model.
+- We will use Ray to implement algorithms under DPRAM model in labs.
+- Ray is an open source project for parallel and distributed Python.
 
 ```python []
  # Slow approach.
@@ -73,13 +74,18 @@ values = [1, 2, 3, 4, 5, 6, 7, 8]
 while len(values) > 1:
     values = [add.remote(values[0], values[1])] + values[2:]
 result = ray.get(values[0])
+```
+> Runtime: 7.09 seconds
 
-
+```
  # Fast approach.
 values = [1, 2, 3, 4, 5, 6, 7, 8]
 while len(values) > 1:
     values = values[2:] + [add.remote(values[0], values[1])]
 result = ray.get(values[0])
 ```
+> Runtime: 3.04 seconds
 
-[Modern Parallel and Distributed Python: A Quick Tutorial on Ray by Robert Nishihara](https://medium.com/data-science/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8)
+We will dive deeper in Ray but for now let's glance at this 7 minutes long read from one of the creators of Ray.
+- [Modern Parallel and Distributed Python: A Quick Tutorial on Ray by Robert Nishihara](https://medium.com/data-science/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8)
+- You will dive into why the `Runtime` is different in a *YouTry* during the [labs for ray](ray.html#jupyter-ipynb-notebooks-in-labs)

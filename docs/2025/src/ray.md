@@ -230,7 +230,9 @@ Let us go through the jupyter `.ipynb` notebooks in `labs` directory of the dock
   - `labs/learning_ray/notebooks/ch_01_overview.ipynb`
 - Let's get our hands on keys with *A Gentle Introduction to Ray Core by Example* notebook:
   - `labs/ray/doc/source/ray-core/examples/gentle_walkthrough.ipynb`
-- You Try a deeper dive with Ray Core in more details culminating with a map-reduce example on your own:
+- *YouTry* a deeper dive with Ray Core in more details culminating with a map-reduce example on your own:
   - `labs/learning_ray/notebooks/ch_02_ray_core.ipynb`
-- You Try an ever deeper dive with Ray Core implementing a simple reinforcement learning algorithm on your own: 
+- *YouTry* reading [Nishihara's blog post](https://medium.com/data-science/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8) and playing around with his code snippets on adding 8 numbers in parallel on your own. Do you see Brent's Theorem in action? Explain to yourself and your group mates the difference in time taken with and without Ray.
+  - `labs/nishihara_blogpost/aggregation_example.ipynb`
+- *YouTry* an ever deeper dive with Ray Core implementing a simple reinforcement learning algorithm on your own: 
   - `labs/learning_ray/notebooks/ch_03_core_app.ipynb`
