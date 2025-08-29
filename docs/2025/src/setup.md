@@ -206,4 +206,9 @@ rm -rf /home/ray/workshop/SovScaDesDisMaLOps
 
 - The objective of the labs is to help you take the first steps in this highly integrative field of sovereign scalable data engineering sciences and distributed machine learning operations. 
 - It is also to perhaps inspire you to consider taking the elective 6 hp WASP PhD course entirely with Raaz in a more focused and structured mathematical and coding setting over a whole semester in the Fall of 2026 titled [*Scalable Data Science and Distributed Machine Learning (ScaDaMaLe)*](https://lamastex.github.io/ScaDaMaLe/) where you will do group projects with others. 
-
+  - Checkout the past student group project presentations reachable from the above link, where peer-reviewed executible books were written in  2020, 2022 and 2024 instances of the course with the corresponding oral presentations in the following links curated by year as follows:
+    - [ScaDaMaLe-WASP-2024 peer-reviewed book via links](https://lamastex.github.io/ScaDaMaLe/000_0-sds-3-x-projects-2024/)
+      - [ScaDaMaLe-WASP-2024 oral presentations playlist](https://youtube.com/playlist?list=PL_I1mOIPmfpaASsoY-RREd3DtU88qtRlj&si=xtQFghz-kcDzNQMo)
+    - [ScaDaMaLe-WASP-2022 peer-reviewed book with embedded oral presentations](https://lamastex.github.io/ScaDaMaLe/000_0-sds-3-x-projects-2022/)
+      - [ScaDaMaLe-WASP-2022 oral presentations playlist](https://youtube.com/playlist?list=PL_I1mOIPmfpbiH5AosoguS8ntkFl_Ql_7&si=oyUv6cNZm07RmMTl)
+    - [ScaDaMaLe-WASP-2020 peer-reviewed book with embedded oral presentations](https://lamastex.github.io/ScaDaMaLe/000_0-sds-3-x-projects/)

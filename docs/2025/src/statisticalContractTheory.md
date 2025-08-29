@@ -25,7 +25,8 @@ Basics of the Principal-Agent Model under Information Asymmetry.
     - producer-processor (eg. slaughterer, butcher, packager, cold-chain provider)
     - processor-transporter, transporter-distributor, distributor-exporter, exporter-importer, importer-distributor, distributor-retailer
     - retailer-eater
-
+  - Deep dives into various *natural living systems experiments* by clicking `Play All` and pausing, playing or forwarding as needed at playlists/podcasts at:
+    - [@livingsystems_vakeworks channel](https://www.youtube.com/@livingsystems_vakeworks)
 - Reference Readings:
     - [The Theory of Incentives: The Principal-Agent Model](https://press.princeton.edu/books/paperback/9780691091846/the-theory-of-incentives), Jean-Jacques Laffont and David Martimort, Princeton University Press, 2002, ISBN: 9780691091846.
     - [Contract Theory](https://mitpress.mit.edu/9780262025768/contract-theory/), Patrick Bolton and Mathias Dewatripont, The MIT Press, 2014, ISBN: 9780262025768.
