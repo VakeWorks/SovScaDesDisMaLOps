@@ -119,7 +119,7 @@ It will look something like this with the respective LICENSEs:
 /home/ray/workshop/SovScaDesDisMaLOps
 (base) ray@12dfbd942909:/home/ray/workshop/SovScaDesDisMaLOps$ ls -R labs/
 labs/:
-learning_ray  my_script.py  ray  scalingpythonml
+learning_ray  my_script.py  nishihara_blogpost  ray  scalingpythonml
 
 labs/learning_ray:
 LICENSE  README.md  notebooks
@@ -139,6 +139,12 @@ architecture.png  map_reduce.png  task_dependency.png  worker_node.png
 
 labs/learning_ray/notebooks/images/chapter_03:
 train_policy.png
+
+labs/nishihara_blogpost:
+aggregation_example.ipynb  images
+
+labs/nishihara_blogpost/images:
+DepGraphAdd1to8_RobertNishihara.webp
 
 labs/ray:
 LICENSE  README.md  doc
