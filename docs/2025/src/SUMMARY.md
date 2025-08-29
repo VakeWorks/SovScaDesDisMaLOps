@@ -27,8 +27,8 @@
 * [Docker](./docker.md)
 * [Git](./git.md)
 * [Ray](./ray.md)
-* [Sovereign Operations](sovops.md)
-* [Docker Builds](./docker-ray-dev.md)
+* [Last 30 Minutes](sovops.md)
+* [EXTRAs: Docker Builds](./docker-ray-dev.md)
 
 <!---
 --->
