@@ -1,13 +1,14 @@
 # Overview
 
-## THM: Theoretical Modules -- Overview
+## Theoretical Modules -- Overview
 
-1. **[1 hour]** Laws of Capitalism, Statistical Contract Theory, Intellectual Property Laws in Sweden, Corporate Jurisdictions and Sovereignty  
-2. **[1 hour]** Abstract Machine Models, Work-Depth Model, Brent's Theorem, and Analysis of the Fastest Sorting Algorithm in Distributed Parallel Random Access Machine (DPRAM) model
+1. **[1 hour]** Laws of Capitalism, Intellectual Property Laws in Sweden, Statistical Contract Theory, Machines, Models
+2. **[1 hour]** Machines, Models, Abstract Machine Models, Work-Depth Model, Brent's Theorem, Digital Sovereignty, AoAaO 
+3. **[30 minutes]** Industry Guest Talk about *Sovereign (Scalable) Operations*  by Jim Dowling, CEO of Logical Clocks AB, Stockholm, Sweden
 
-## PRM: Practical Modules -- Overview
+## Practical Modules -- Overview
 
-1. **[1 hour]** Scaling Python with Ray in a Hurry (requirements: git or github account; docker desktop; up-to-date and secure laptop)
-2. **[1 hour]** Deploying for Sovereign Operations in Scalable Data Engineering Sciences and Distributed Machine Learning Spaces.
+1. **[1~ hour]** docker, command-line, git, ray labs
+2. **[1~ hour]** ray labs with *YouTry*s
 
 
