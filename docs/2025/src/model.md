@@ -7,7 +7,7 @@
 Models are useful to analyse machines, including their architecture, performance, property and behaviour.
 
 
-## Abstract Machine Models  <img src="./images/UnderConstructionWarningGeekByDominiqueChappard_OpenClipArt.png" width="100" align="right" alt="Under Construction">
+## Abstract Machine Models  
 
 - Efficiency of an algorithm is analysed using an abstract model of computation or an *abstract machine model (AMM)*
 - Such a model allows the designer of an algorithm to ignore many hardware details of the machine on which the algorithm will be run, 
@@ -52,14 +52,15 @@ With \\(T_1, T_p, T_\infty\\) defined in the work-depth model, and if we assume 
     \frac{T_1}{p}\le T_p \le \frac{T_1}{p} + T_\infty.
 \\]
 
-Let us go through the notes to understand Brent's Theorem carefully.
+- Let us go through the key parts of the first Chapter of the [Distirbuted Algorithms and Optimisation Course Notes](https://github.com/lamastex/scalable-data-science/blob/master/read/daosu.pdf) to understand Brent's Theorem carefully.
+  - These notes are for the theoretical parts of the 6hp WASP PhD course titled *Scalable Data Science and Distributed Machine Learning (ScaDaMaLe)* I will be offering in 2026 Fall where we will dive deeper into many more parallel and distributed algorithms.
 
 ## Distributed Parallel Random Access Machine Model
 
 - DPRAM and its more abstract Distributed Work-Depth Model is the abstract machine model used to analyse computations done by a cluster of computers as well as computation in the cloud.
 - In addition to time and space, for p processor and memory units, we also need to analyse the cost of communication between \\(c\\) PRAM computers in our cluster. 
-- The 6hp WASP PhD course *Scalable Data Science and Distributed Machine Learning* will cover these topics in detail in 2026 Fall.
-
+- The *ScaDaMaLe* course will cover such algorithms in DPRAM models over a whole semester in addition to coding in distributed systems for group projects.
+- This workshop is a mini-primer for the *ScaDaMaLe* course in Fall 2026.
 
 ## Implementation in Ray 
 
